@@ -1,0 +1,1531 @@
+
+
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="1200"
+  height="680"
+  viewBox="0 0 1200 680"
+>
+
+<defs>
+
+  <linearGradient
+    id="background"
+    x1="0"
+    x2="1"
+  >
+    <stop
+      offset="0%"
+      stop-color="#0d1117"
+    />
+
+    <stop
+      offset="100%"
+      stop-color="#081522"
+    />
+  </linearGradient>
+
+  <linearGradient
+    id="accent"
+    x1="0"
+    x2="1"
+  >
+    <stop
+      stop-color="#58a6ff"
+    />
+
+    <stop
+      offset="100%"
+      stop-color="#21d9e8"
+    />
+  </linearGradient>
+
+  <style>
+
+    text {
+      font-family:
+        Inter,
+        Arial,
+        sans-serif;
+    }
+
+    .title {
+      fill: #f0f6fc;
+      font-size: 28px;
+      font-weight: 700;
+    }
+
+    .section {
+      fill: #f0f6fc;
+      font-size: 15px;
+      font-weight: 700;
+    }
+
+    .big {
+      fill: #f0f6fc;
+      font-size: 28px;
+      font-weight: 800;
+    }
+
+    .normal {
+      fill: #c9d1d9;
+      font-size: 13px;
+      font-weight: 600;
+    }
+
+    .muted {
+      fill: #8b949e;
+      font-size: 12px;
+    }
+
+    .score {
+      fill: #f0f6fc;
+      font-size: 39px;
+      font-weight: 800;
+    }
+
+  </style>
+
+</defs>
+
+<rect
+  x="1"
+  y="1"
+  width="1198"
+  height="678"
+  rx="24"
+  fill="url(#background)"
+  stroke="#30363d"
+  stroke-width="2"
+/>
+
+<!-- HEADER -->
+
+<circle
+  cx="42"
+  cy="43"
+  r="9"
+  fill="#ffa116"
+/>
+
+<text
+  x="62"
+  y="51"
+  class="title"
+>
+  LeetCode Intelligence Dashboard
+</text>
+
+<text
+  x="62"
+  y="74"
+  class="muted"
+>
+  @Saurya11253v • Live Problem-Solving Performance
+</text>
+
+<rect
+  x="1030"
+  y="27"
+  width="130"
+  height="33"
+  rx="17"
+  fill="#0f2217"
+  stroke="#238636"
+/>
+
+<circle
+  cx="1052"
+  cy="43"
+  r="5"
+  fill="#3fb950"
+/>
+
+<text
+  x="1067"
+  y="48"
+  class="normal"
+>
+  LIVE
+</text>
+
+<!-- SCORE -->
+
+<rect
+  x="32"
+  y="100"
+  width="245"
+  height="280"
+  rx="18"
+  fill="#111820"
+  stroke="#263241"
+/>
+
+<text
+  x="55"
+  y="135"
+  class="section"
+>
+  PERFORMANCE INDEX
+</text>
+
+<circle
+  cx="154"
+  cy="230"
+  r="68"
+  fill="none"
+  stroke="#21262d"
+  stroke-width="14"
+/>
+
+<circle
+  cx="154"
+  cy="230"
+  r="68"
+  fill="none"
+  stroke="url(#accent)"
+  stroke-width="14"
+  stroke-linecap="round"
+  stroke-dasharray="427.2566008882119"
+  stroke-dashoffset="303.35218663063046"
+  transform="rotate(-90 154 230)"
+/>
+
+<text
+  x="154"
+  y="235"
+  text-anchor="middle"
+  class="score"
+>
+  29
+</text>
+
+<text
+  x="154"
+  y="258"
+  text-anchor="middle"
+  class="muted"
+>
+  CUSTOM / 100
+</text>
+
+<text
+  x="55"
+  y="330"
+  class="muted"
+>
+  Global Ranking
+</text>
+
+<text
+  x="248"
+  y="330"
+  text-anchor="end"
+  class="normal"
+>
+  #2,820,104
+</text>
+
+<text
+  x="55"
+  y="355"
+  class="muted"
+>
+  Active Days
+</text>
+
+<text
+  x="248"
+  y="355"
+  text-anchor="end"
+  class="normal"
+>
+  25
+</text>
+
+<!-- METRICS -->
+
+
+  <rect
+    x="300"
+    y="100"
+    width="205"
+    height="90"
+    rx="15"
+    fill="#111820"
+    stroke="#263241"
+  />
+
+  <rect
+    x="300"
+    y="100"
+    width="4"
+    height="90"
+    rx="2"
+    fill="#58a6ff"
+  />
+
+  <text
+    x="320"
+    y="130"
+    class="muted"
+  >
+    TOTAL SOLVED
+  </text>
+
+  <text
+    x="320"
+    y="163"
+    class="big"
+  >
+    44
+  </text>
+
+  <text
+    x="320"
+    y="180"
+    class="muted"
+  >
+    1.1% coverage
+  </text>
+
+
+  <rect
+    x="520"
+    y="100"
+    width="205"
+    height="90"
+    rx="15"
+    fill="#111820"
+    stroke="#263241"
+  />
+
+  <rect
+    x="520"
+    y="100"
+    width="4"
+    height="90"
+    rx="2"
+    fill="#f2cc60"
+  />
+
+  <text
+    x="540"
+    y="130"
+    class="muted"
+  >
+    STREAK
+  </text>
+
+  <text
+    x="540"
+    y="163"
+    class="big"
+  >
+    25 Days
+  </text>
+
+  <text
+    x="540"
+    y="180"
+    class="muted"
+  >
+    25 active days
+  </text>
+
+
+  <rect
+    x="740"
+    y="100"
+    width="205"
+    height="90"
+    rx="15"
+    fill="#111820"
+    stroke="#263241"
+  />
+
+  <rect
+    x="740"
+    y="100"
+    width="4"
+    height="90"
+    rx="2"
+    fill="#3fb950"
+  />
+
+  <text
+    x="760"
+    y="130"
+    class="muted"
+  >
+    ACCEPTANCE
+  </text>
+
+  <text
+    x="760"
+    y="163"
+    class="big"
+  >
+    91.1%
+  </text>
+
+  <text
+    x="760"
+    y="180"
+    class="muted"
+  >
+    Accepted / submitted
+  </text>
+
+
+  <rect
+    x="960"
+    y="100"
+    width="200"
+    height="90"
+    rx="15"
+    fill="#111820"
+    stroke="#263241"
+  />
+
+  <rect
+    x="960"
+    y="100"
+    width="4"
+    height="90"
+    rx="2"
+    fill="#ffa116"
+  />
+
+  <text
+    x="980"
+    y="130"
+    class="muted"
+  >
+    DAILY WINS
+  </text>
+
+  <text
+    x="980"
+    y="163"
+    class="big"
+  >
+    1
+  </text>
+
+  <text
+    x="980"
+    y="180"
+    class="muted"
+  >
+    Tracked since 2026-07-18
+  </text>
+
+<!-- DIFFICULTY -->
+
+<rect
+  x="300"
+  y="210"
+  width="425"
+  height="170"
+  rx="18"
+  fill="#111820"
+  stroke="#263241"
+/>
+
+<text
+  x="330"
+  y="244"
+  class="section"
+>
+  DIFFICULTY PROGRESS
+</text>
+
+
+  <text
+    x="330"
+    y="276"
+    class="normal"
+  >
+    Easy
+  </text>
+
+  <text
+    x="690"
+    y="276"
+    text-anchor="end"
+    class="muted"
+  >
+    37 / 955
+  </text>
+
+  <rect
+    x="330"
+    y="288"
+    width="360"
+    height="9"
+    rx="5"
+    fill="#21262d"
+  />
+
+  <rect
+    x="330"
+    y="288"
+    width="13.947643979057593"
+    height="9"
+    rx="5"
+    fill="#00b8a3"
+  />
+
+
+  <text
+    x="330"
+    y="320"
+    class="normal"
+  >
+    Medium
+  </text>
+
+  <text
+    x="690"
+    y="320"
+    text-anchor="end"
+    class="muted"
+  >
+    6 / 2086
+  </text>
+
+  <rect
+    x="330"
+    y="332"
+    width="360"
+    height="9"
+    rx="5"
+    fill="#21262d"
+  />
+
+  <rect
+    x="330"
+    y="332"
+    width="1.0354745925215725"
+    height="9"
+    rx="5"
+    fill="#ffc01e"
+  />
+
+
+  <text
+    x="330"
+    y="364"
+    class="normal"
+  >
+    Hard
+  </text>
+
+  <text
+    x="690"
+    y="364"
+    text-anchor="end"
+    class="muted"
+  >
+    1 / 954
+  </text>
+
+  <rect
+    x="330"
+    y="376"
+    width="360"
+    height="9"
+    rx="5"
+    fill="#21262d"
+  />
+
+  <rect
+    x="330"
+    y="376"
+    width="0.37735849056603776"
+    height="9"
+    rx="5"
+    fill="#ff375f"
+  />
+
+<!-- CONTEST -->
+
+<rect
+  x="740"
+  y="210"
+  width="420"
+  height="170"
+  rx="18"
+  fill="#111820"
+  stroke="#263241"
+/>
+
+<text
+  x="765"
+  y="244"
+  class="section"
+>
+  CONTEST PERFORMANCE
+</text>
+
+<text
+  x="765"
+  y="285"
+  class="muted"
+>
+  Rating
+</text>
+
+<text
+  x="865"
+  y="285"
+  class="big"
+>
+  —
+</text>
+
+<text
+  x="970"
+  y="285"
+  class="muted"
+>
+  Top
+</text>
+
+<text
+  x="1130"
+  y="285"
+  text-anchor="end"
+  class="big"
+>
+  —
+</text>
+
+<text
+  x="765"
+  y="330"
+  class="muted"
+>
+  Contests Attended
+</text>
+
+<text
+  x="900"
+  y="330"
+  class="normal"
+>
+  0
+</text>
+
+<text
+  x="970"
+  y="330"
+  class="muted"
+>
+  Contest Rank
+</text>
+
+<text
+  x="1130"
+  y="330"
+  text-anchor="end"
+  class="normal"
+>
+  —
+</text>
+
+<text
+  x="765"
+  y="360"
+  class="muted"
+>
+  Daily Challenge Today
+</text>
+
+<text
+  x="1130"
+  y="360"
+  text-anchor="end"
+  class="normal"
+  fill="#3fb950"
+>
+  SOLVED ✓
+</text>
+
+<!-- RECENT ACTIVITY -->
+
+<rect
+  x="32"
+  y="410"
+  width="693"
+  height="235"
+  rx="18"
+  fill="#111820"
+  stroke="#263241"
+/>
+
+<text
+  x="55"
+  y="445"
+  class="section"
+>
+  RECENT ACTIVITY
+</text>
+
+
+      <circle
+        cx="58"
+        cy="463"
+        r="4"
+        fill="#3fb950"
+      />
+
+      <text
+        x="72"
+        y="468"
+        class="normal"
+      >
+        Find Greatest Common Divisor of Ar…
+      </text>
+
+      <text
+        x="445"
+        y="468"
+        class="muted"
+      >
+        java
+      </text>
+
+      <text
+        x="600"
+        y="468"
+        class="muted"
+      >
+        14h
+      </text>
+      <circle
+        cx="58"
+        cy="498"
+        r="4"
+        fill="#3fb950"
+      />
+
+      <text
+        x="72"
+        y="503"
+        class="normal"
+      >
+        Sorted GCD Pair Queries
+      </text>
+
+      <text
+        x="445"
+        y="503"
+        class="muted"
+      >
+        java
+      </text>
+
+      <text
+        x="600"
+        y="503"
+        class="muted"
+      >
+        1d
+      </text>
+      <circle
+        cx="58"
+        cy="533"
+        r="4"
+        fill="#3fb950"
+      />
+
+      <text
+        x="72"
+        y="538"
+        class="normal"
+      >
+        Sum of GCD of Formed Pairs
+      </text>
+
+      <text
+        x="445"
+        y="538"
+        class="muted"
+      >
+        java
+      </text>
+
+      <text
+        x="600"
+        y="538"
+        class="muted"
+      >
+        2d
+      </text>
+      <circle
+        cx="58"
+        cy="568"
+        r="4"
+        fill="#3fb950"
+      />
+
+      <text
+        x="72"
+        y="573"
+        class="normal"
+      >
+        GCD of Odd and Even Sums
+      </text>
+
+      <text
+        x="445"
+        y="573"
+        class="muted"
+      >
+        java
+      </text>
+
+      <text
+        x="600"
+        y="573"
+        class="muted"
+      >
+        3d
+      </text>
+      <circle
+        cx="58"
+        cy="603"
+        r="4"
+        fill="#3fb950"
+      />
+
+      <text
+        x="72"
+        y="608"
+        class="normal"
+      >
+        Next Greater Element I
+      </text>
+
+      <text
+        x="445"
+        y="608"
+        class="muted"
+      >
+        java
+      </text>
+
+      <text
+        x="600"
+        y="608"
+        class="muted"
+      >
+        4d
+      </text>
+
+<!-- HEATMAP -->
+
+<rect
+  x="740"
+  y="410"
+  width="420"
+  height="235"
+  rx="18"
+  fill="#111820"
+  stroke="#263241"
+/>
+
+<text
+  x="765"
+  y="445"
+  class="section"
+>
+  12-WEEK ACTIVITY PULSE
+</text>
+
+
+      <rect
+        x="762"
+        y="470"
+        width="15"
+        height="15"
+        rx="3"
+        fill="#161b22"
+      />
+      <rect
+        x="762"
+        y="489"
+        width="15"
+        height="15"
+        rx="3"
+        fill="#161b22"
+      />
+      <rect
+        x="762"
+        y="508"
+        width="15"
+        height="15"
+        rx="3"
+        fill="#161b22"
+      />
+      <rect
+        x="762"
+        y="527"
+        width="15"
+        height="15"
+        rx="3"
+        fill="#161b22"
+      />
+      <rect
+        x="762"
+        y="546"
+        width="15"
+        height="15"
+        rx="3"
+        fill="#161b22"
+      />
+      <rect
+        x="762"
+        y="565"
+        width="15"
+        height="15"
+        rx="3"
+        fill="#161b22"
+      />
+      <rect
+        x="762"
+        y="584"
+        width="15"
+        height="15"
+        rx="3"
+        fill="#161b22"
+      />
+      <rect
+        x="789"
+        y="470"
+        width="15"
+        height="15"
+        rx="3"
+        fill="#161b22"
+      />
+      <rect
+        x="789"
+        y="489"
+        width="15"
+        height="15"
+        rx="3"
+        fill="#161b22"
+      />
+      <rect
+        x="789"
+        y="508"
+        width="15"
+        height="15"
+        rx="3"
+        fill="#161b22"
+      />
+      <rect
+        x="789"
+        y="527"
+        width="15"
+        height="15"
+        rx="3"
+        fill="#161b22"
+      />
+      <rect
+        x="789"
+        y="546"
+        width="15"
+        height="15"
+        rx="3"
+        fill="#161b22"
+      />
+      <rect
+        x="789"
+        y="565"
+        width="15"
+        height="15"
+        rx="3"
+        fill="#161b22"
+      />
+      <rect
+        x="789"
+        y="584"
+        width="15"
+        height="15"
+        rx="3"
+        fill="#161b22"
+      />
+      <rect
+        x="816"
+        y="470"
+        width="15"
+        height="15"
+        rx="3"
+        fill="#161b22"
+      />
+      <rect
+        x="816"
+        y="489"
+        width="15"
+        height="15"
+        rx="3"
+        fill="#161b22"
+      />
+      <rect
+        x="816"
+        y="508"
+        width="15"
+        height="15"
+        rx="3"
+        fill="#161b22"
+      />
+      <rect
+        x="816"
+        y="527"
+        width="15"
+        height="15"
+        rx="3"
+        fill="#161b22"
+      />
+      <rect
+        x="816"
+        y="546"
+        width="15"
+        height="15"
+        rx="3"
+        fill="#161b22"
+      />
+      <rect
+        x="816"
+        y="565"
+        width="15"
+        height="15"
+        rx="3"
+        fill="#161b22"
+      />
+      <rect
+        x="816"
+        y="584"
+        width="15"
+        height="15"
+        rx="3"
+        fill="#161b22"
+      />
+      <rect
+        x="843"
+        y="470"
+        width="15"
+        height="15"
+        rx="3"
+        fill="#161b22"
+      />
+      <rect
+        x="843"
+        y="489"
+        width="15"
+        height="15"
+        rx="3"
+        fill="#161b22"
+      />
+      <rect
+        x="843"
+        y="508"
+        width="15"
+        height="15"
+        rx="3"
+        fill="#161b22"
+      />
+      <rect
+        x="843"
+        y="527"
+        width="15"
+        height="15"
+        rx="3"
+        fill="#161b22"
+      />
+      <rect
+        x="843"
+        y="546"
+        width="15"
+        height="15"
+        rx="3"
+        fill="#161b22"
+      />
+      <rect
+        x="843"
+        y="565"
+        width="15"
+        height="15"
+        rx="3"
+        fill="#161b22"
+      />
+      <rect
+        x="843"
+        y="584"
+        width="15"
+        height="15"
+        rx="3"
+        fill="#161b22"
+      />
+      <rect
+        x="870"
+        y="470"
+        width="15"
+        height="15"
+        rx="3"
+        fill="#161b22"
+      />
+      <rect
+        x="870"
+        y="489"
+        width="15"
+        height="15"
+        rx="3"
+        fill="#161b22"
+      />
+      <rect
+        x="870"
+        y="508"
+        width="15"
+        height="15"
+        rx="3"
+        fill="#161b22"
+      />
+      <rect
+        x="870"
+        y="527"
+        width="15"
+        height="15"
+        rx="3"
+        fill="#161b22"
+      />
+      <rect
+        x="870"
+        y="546"
+        width="15"
+        height="15"
+        rx="3"
+        fill="#161b22"
+      />
+      <rect
+        x="870"
+        y="565"
+        width="15"
+        height="15"
+        rx="3"
+        fill="#161b22"
+      />
+      <rect
+        x="870"
+        y="584"
+        width="15"
+        height="15"
+        rx="3"
+        fill="#161b22"
+      />
+      <rect
+        x="897"
+        y="470"
+        width="15"
+        height="15"
+        rx="3"
+        fill="#161b22"
+      />
+      <rect
+        x="897"
+        y="489"
+        width="15"
+        height="15"
+        rx="3"
+        fill="#161b22"
+      />
+      <rect
+        x="897"
+        y="508"
+        width="15"
+        height="15"
+        rx="3"
+        fill="#161b22"
+      />
+      <rect
+        x="897"
+        y="527"
+        width="15"
+        height="15"
+        rx="3"
+        fill="#161b22"
+      />
+      <rect
+        x="897"
+        y="546"
+        width="15"
+        height="15"
+        rx="3"
+        fill="#161b22"
+      />
+      <rect
+        x="897"
+        y="565"
+        width="15"
+        height="15"
+        rx="3"
+        fill="#161b22"
+      />
+      <rect
+        x="897"
+        y="584"
+        width="15"
+        height="15"
+        rx="3"
+        fill="#161b22"
+      />
+      <rect
+        x="924"
+        y="470"
+        width="15"
+        height="15"
+        rx="3"
+        fill="#161b22"
+      />
+      <rect
+        x="924"
+        y="489"
+        width="15"
+        height="15"
+        rx="3"
+        fill="#161b22"
+      />
+      <rect
+        x="924"
+        y="508"
+        width="15"
+        height="15"
+        rx="3"
+        fill="#161b22"
+      />
+      <rect
+        x="924"
+        y="527"
+        width="15"
+        height="15"
+        rx="3"
+        fill="#161b22"
+      />
+      <rect
+        x="924"
+        y="546"
+        width="15"
+        height="15"
+        rx="3"
+        fill="#161b22"
+      />
+      <rect
+        x="924"
+        y="565"
+        width="15"
+        height="15"
+        rx="3"
+        fill="#161b22"
+      />
+      <rect
+        x="924"
+        y="584"
+        width="15"
+        height="15"
+        rx="3"
+        fill="#161b22"
+      />
+      <rect
+        x="951"
+        y="470"
+        width="15"
+        height="15"
+        rx="3"
+        fill="#161b22"
+      />
+      <rect
+        x="951"
+        y="489"
+        width="15"
+        height="15"
+        rx="3"
+        fill="#161b22"
+      />
+      <rect
+        x="951"
+        y="508"
+        width="15"
+        height="15"
+        rx="3"
+        fill="#161b22"
+      />
+      <rect
+        x="951"
+        y="527"
+        width="15"
+        height="15"
+        rx="3"
+        fill="#161b22"
+      />
+      <rect
+        x="951"
+        y="546"
+        width="15"
+        height="15"
+        rx="3"
+        fill="#161b22"
+      />
+      <rect
+        x="951"
+        y="565"
+        width="15"
+        height="15"
+        rx="3"
+        fill="#161b22"
+      />
+      <rect
+        x="951"
+        y="584"
+        width="15"
+        height="15"
+        rx="3"
+        fill="#161b22"
+      />
+      <rect
+        x="978"
+        y="470"
+        width="15"
+        height="15"
+        rx="3"
+        fill="#161b22"
+      />
+      <rect
+        x="978"
+        y="489"
+        width="15"
+        height="15"
+        rx="3"
+        fill="#161b22"
+      />
+      <rect
+        x="978"
+        y="508"
+        width="15"
+        height="15"
+        rx="3"
+        fill="#161b22"
+      />
+      <rect
+        x="978"
+        y="527"
+        width="15"
+        height="15"
+        rx="3"
+        fill="#0e4429"
+      />
+      <rect
+        x="978"
+        y="546"
+        width="15"
+        height="15"
+        rx="3"
+        fill="#0e4429"
+      />
+      <rect
+        x="978"
+        y="565"
+        width="15"
+        height="15"
+        rx="3"
+        fill="#0e4429"
+      />
+      <rect
+        x="978"
+        y="584"
+        width="15"
+        height="15"
+        rx="3"
+        fill="#006d32"
+      />
+      <rect
+        x="1005"
+        y="470"
+        width="15"
+        height="15"
+        rx="3"
+        fill="#26a641"
+      />
+      <rect
+        x="1005"
+        y="489"
+        width="15"
+        height="15"
+        rx="3"
+        fill="#0e4429"
+      />
+      <rect
+        x="1005"
+        y="508"
+        width="15"
+        height="15"
+        rx="3"
+        fill="#26a641"
+      />
+      <rect
+        x="1005"
+        y="527"
+        width="15"
+        height="15"
+        rx="3"
+        fill="#006d32"
+      />
+      <rect
+        x="1005"
+        y="546"
+        width="15"
+        height="15"
+        rx="3"
+        fill="#006d32"
+      />
+      <rect
+        x="1005"
+        y="565"
+        width="15"
+        height="15"
+        rx="3"
+        fill="#006d32"
+      />
+      <rect
+        x="1005"
+        y="584"
+        width="15"
+        height="15"
+        rx="3"
+        fill="#006d32"
+      />
+      <rect
+        x="1032"
+        y="470"
+        width="15"
+        height="15"
+        rx="3"
+        fill="#0e4429"
+      />
+      <rect
+        x="1032"
+        y="489"
+        width="15"
+        height="15"
+        rx="3"
+        fill="#0e4429"
+      />
+      <rect
+        x="1032"
+        y="508"
+        width="15"
+        height="15"
+        rx="3"
+        fill="#39d353"
+      />
+      <rect
+        x="1032"
+        y="527"
+        width="15"
+        height="15"
+        rx="3"
+        fill="#39d353"
+      />
+      <rect
+        x="1032"
+        y="546"
+        width="15"
+        height="15"
+        rx="3"
+        fill="#006d32"
+      />
+      <rect
+        x="1032"
+        y="565"
+        width="15"
+        height="15"
+        rx="3"
+        fill="#0e4429"
+      />
+      <rect
+        x="1032"
+        y="584"
+        width="15"
+        height="15"
+        rx="3"
+        fill="#0e4429"
+      />
+      <rect
+        x="1059"
+        y="470"
+        width="15"
+        height="15"
+        rx="3"
+        fill="#006d32"
+      />
+      <rect
+        x="1059"
+        y="489"
+        width="15"
+        height="15"
+        rx="3"
+        fill="#006d32"
+      />
+      <rect
+        x="1059"
+        y="508"
+        width="15"
+        height="15"
+        rx="3"
+        fill="#0e4429"
+      />
+      <rect
+        x="1059"
+        y="527"
+        width="15"
+        height="15"
+        rx="3"
+        fill="#0e4429"
+      />
+      <rect
+        x="1059"
+        y="546"
+        width="15"
+        height="15"
+        rx="3"
+        fill="#0e4429"
+      />
+      <rect
+        x="1059"
+        y="565"
+        width="15"
+        height="15"
+        rx="3"
+        fill="#0e4429"
+      />
+      <rect
+        x="1059"
+        y="584"
+        width="15"
+        height="15"
+        rx="3"
+        fill="#0e4429"
+      />
+
+<text
+  x="765"
+  y="625"
+  class="muted"
+>
+  Daily Challenge:
+  Find Greatest Common Divisor of…
+</text>
+
+</svg>
