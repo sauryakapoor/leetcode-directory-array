@@ -1,0 +1,1309 @@
+name: Update LeetCode Dashboard
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 */3 * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Generate LeetCode Dashboard
+        env:
+          LEETCODE_USERNAME: Saurya11253v
+        run: |
+          cat > generate-leetcode.mjs <<'EOF'
+
+          import fs from "node:fs/promises";
+
+          const USERNAME = process.env.LEETCODE_USERNAME;
+          const API = "https://leetcode.com/graphql/";
+
+          async function gql(query, variables = {}) {
+            const response = await fetch(API, {
+              method: "POST",
+              headers: {
+                "Content-Type": "application/json",
+                "Referer": "https://leetcode.com/",
+                "User-Agent": "Mozilla/5.0"
+              },
+              body: JSON.stringify({ query, variables })
+            });
+
+            if (!response.ok) {
+              throw new Error(`LeetCode API error: ${response.status}`);
+            }
+
+            const result = await response.json();
+
+            if (result.errors) {
+              throw new Error(
+                result.errors.map(error => error.message).join(", ")
+              );
+            }
+
+            return result.data;
+          }
+
+          const PROFILE_QUERY = `
+          query getUserProfile($username: String!) {
+            allQuestionsCount {
+              difficulty
+              count
+            }
+
+            matchedUser(username: $username) {
+              profile {
+                ranking
+              }
+
+              submitStats {
+                totalSubmissionNum {
+                  difficulty
+                  count
+                  submissions
+                }
+
+                acSubmissionNum {
+                  difficulty
+                  count
+                  submissions
+                }
+              }
+            }
+
+            recentSubmissionList(
+              username: $username
+              limit: 8
+            ) {
+              title
+              titleSlug
+              timestamp
+              statusDisplay
+              lang
+            }
+
+            recentAcSubmissionList(
+              username: $username
+              limit: 20
+            ) {
+              title
+              titleSlug
+              timestamp
+            }
+          }
+          `;
+
+          const CALENDAR_QUERY = `
+          query UserCalendar(
+            $username: String!
+            $year: Int!
+          ) {
+            matchedUser(username: $username) {
+              userCalendar(year: $year) {
+                streak
+                totalActiveDays
+                submissionCalendar
+
+                dccBadges {
+                  timestamp
+
+                  badge {
+                    name
+                  }
+                }
+              }
+            }
+          }
+          `;
+
+          const CONTEST_QUERY = `
+          query ContestInfo($username: String!) {
+            userContestRanking(username: $username) {
+              attendedContestsCount
+              rating
+              globalRanking
+              totalParticipants
+              topPercentage
+
+              badge {
+                name
+              }
+            }
+          }
+          `;
+
+          const DAILY_QUERY = `
+          query DailyChallenge {
+            activeDailyCodingChallengeQuestion {
+              date
+              link
+
+              question {
+                title
+                titleSlug
+                difficulty
+              }
+            }
+          }
+          `;
+
+          function getMetric(data, difficulty, key = "count") {
+            return Number(
+              data?.find(item => item.difficulty === difficulty)?.[key] || 0
+            );
+          }
+
+          function number(value) {
+            const n = Number(value);
+            return Number.isFinite(n) ? n : 0;
+          }
+
+          function escapeXML(text = "") {
+            return String(text)
+              .replaceAll("&", "&amp;")
+              .replaceAll("<", "&lt;")
+              .replaceAll(">", "&gt;");
+          }
+
+          function shorten(text = "", max = 32) {
+            return text.length > max
+              ? text.slice(0, max - 1) + "…"
+              : text;
+          }
+
+          function format(value) {
+            return new Intl.NumberFormat("en-US").format(number(value));
+          }
+
+          function relativeTime(timestamp) {
+            if (!timestamp) return "";
+
+            const diff =
+              Date.now() -
+              Number(timestamp) * 1000;
+
+            const hours =
+              Math.floor(diff / 3600000);
+
+            if (hours < 1) {
+              return "<1h";
+            }
+
+            if (hours < 24) {
+              return hours + "h";
+            }
+
+            return Math.floor(hours / 24) + "d";
+          }
+
+          function parseCalendar(raw) {
+            try {
+              return typeof raw === "string"
+                ? JSON.parse(raw)
+                : raw || {};
+            } catch {
+              return {};
+            }
+          }
+
+          function heatColor(value) {
+            if (!value) return "#161b22";
+            if (value === 1) return "#0e4429";
+            if (value <= 3) return "#006d32";
+            if (value <= 6) return "#26a641";
+
+            return "#39d353";
+          }
+
+          async function loadHistory() {
+            try {
+              return JSON.parse(
+                await fs.readFile(
+                  ".leetcode-dashboard-history.json",
+                  "utf8"
+                )
+              );
+            } catch {
+              return {
+                started:
+                  new Date()
+                    .toISOString()
+                    .slice(0, 10),
+
+                dailyWins: []
+              };
+            }
+          }
+
+          const year =
+            new Date().getUTCFullYear();
+
+          const [
+            profile,
+            calendarResult,
+            contestResult,
+            dailyResult
+          ] = await Promise.all([
+
+            gql(
+              PROFILE_QUERY,
+              { username: USERNAME }
+            ),
+
+            gql(
+              CALENDAR_QUERY,
+              {
+                username: USERNAME,
+                year
+              }
+            ),
+
+            gql(
+              CONTEST_QUERY,
+              { username: USERNAME }
+            ).catch(() => ({
+              userContestRanking: null
+            })),
+
+            gql(
+              DAILY_QUERY
+            ).catch(() => ({
+              activeDailyCodingChallengeQuestion: null
+            }))
+
+          ]);
+
+          const user =
+            profile.matchedUser;
+
+          if (!user) {
+            throw new Error(
+              "LeetCode user not found."
+            );
+          }
+
+          const accepted =
+            user.submitStats
+              ?.acSubmissionNum || [];
+
+          const submissions =
+            user.submitStats
+              ?.totalSubmissionNum || [];
+
+          const questionCount =
+            profile.allQuestionsCount || [];
+
+          const solved = {
+            total:
+              getMetric(
+                accepted,
+                "All"
+              ),
+
+            easy:
+              getMetric(
+                accepted,
+                "Easy"
+              ),
+
+            medium:
+              getMetric(
+                accepted,
+                "Medium"
+              ),
+
+            hard:
+              getMetric(
+                accepted,
+                "Hard"
+              )
+          };
+
+          const totals = {
+            total:
+              getMetric(
+                questionCount,
+                "All"
+              ),
+
+            easy:
+              getMetric(
+                questionCount,
+                "Easy"
+              ),
+
+            medium:
+              getMetric(
+                questionCount,
+                "Medium"
+              ),
+
+            hard:
+              getMetric(
+                questionCount,
+                "Hard"
+              )
+          };
+
+          const acceptedAttempts =
+            getMetric(
+              accepted,
+              "All",
+              "submissions"
+            );
+
+          const totalAttempts =
+            getMetric(
+              submissions,
+              "All",
+              "submissions"
+            );
+
+          const acceptance =
+            totalAttempts
+              ? acceptedAttempts /
+                totalAttempts * 100
+              : 0;
+
+          const calendar =
+            calendarResult
+              ?.matchedUser
+              ?.userCalendar || {};
+
+          const streak =
+            number(
+              calendar.streak
+            );
+
+          const activeDays =
+            number(
+              calendar.totalActiveDays
+            );
+
+          const submissionCalendar =
+            parseCalendar(
+              calendar.submissionCalendar
+            );
+
+          const contest =
+            contestResult
+              ?.userContestRanking || {};
+
+          const daily =
+            dailyResult
+              ?.activeDailyCodingChallengeQuestion;
+
+          const recentAccepted =
+            profile
+              .recentAcSubmissionList || [];
+
+          const dailySolved =
+            Boolean(
+              daily?.question?.titleSlug &&
+              recentAccepted.some(
+                submission =>
+                  submission.titleSlug ===
+                  daily.question.titleSlug
+              )
+            );
+
+          const history =
+            await loadHistory();
+
+          if (
+            dailySolved &&
+            daily?.date &&
+            !history.dailyWins.includes(
+              daily.date
+            )
+          ) {
+            history.dailyWins.push(
+              daily.date
+            );
+          }
+
+          await fs.writeFile(
+            ".leetcode-dashboard-history.json",
+            JSON.stringify(
+              history,
+              null,
+              2
+            )
+          );
+
+          const coverage =
+            Math.min(
+              100,
+              solved.total / 500 * 100
+            );
+
+          const difficultyScore =
+            solved.total
+              ? Math.min(
+                  100,
+                  (
+                    solved.medium * 1.5 +
+                    solved.hard * 3
+                  ) /
+                  solved.total *
+                  30
+                )
+              : 0;
+
+          const consistency =
+            Math.min(
+              100,
+              streak / 30 * 60 +
+              activeDays / 180 * 40
+            );
+
+          const contestScore =
+            number(
+              contest.topPercentage
+            )
+              ? Math.max(
+                  0,
+                  100 -
+                  number(
+                    contest.topPercentage
+                  )
+                )
+              : 0;
+
+          const performance =
+            Math.round(
+
+              coverage * 0.30 +
+
+              difficultyScore * 0.20 +
+
+              consistency * 0.20 +
+
+              acceptance * 0.15 +
+
+              contestScore * 0.15
+
+            );
+
+          const days = [];
+
+          const today =
+            new Date();
+
+          today.setUTCHours(
+            0,
+            0,
+            0,
+            0
+          );
+
+          for (
+            let i = 83;
+            i >= 0;
+            i--
+          ) {
+
+            const date =
+              new Date(today);
+
+            date.setUTCDate(
+              today.getUTCDate() - i
+            );
+
+            const timestamp =
+              Math.floor(
+                date.getTime() / 1000
+              );
+
+            days.push({
+              count:
+                Number(
+                  submissionCalendar[
+                    timestamp
+                  ] || 0
+                )
+            });
+
+          }
+
+          const heatmap =
+            days.map(
+              (day, index) => {
+
+                const column =
+                  Math.floor(
+                    index / 7
+                  );
+
+                const row =
+                  index % 7;
+
+                return `
+                <rect
+                  x="${762 + column * 27}"
+                  y="${470 + row * 19}"
+                  width="15"
+                  height="15"
+                  rx="3"
+                  fill="${heatColor(day.count)}"
+                />`;
+              }
+            ).join("");
+
+          const recentActivity =
+            (
+              profile
+                .recentSubmissionList || []
+            )
+            .slice(0, 5)
+            .map(
+              (submission, index) => {
+
+                const y =
+                  468 +
+                  index * 35;
+
+                const statusColor =
+                  submission.statusDisplay ===
+                  "Accepted"
+                    ? "#3fb950"
+                    : "#f85149";
+
+                return `
+                <circle
+                  cx="58"
+                  cy="${y - 5}"
+                  r="4"
+                  fill="${statusColor}"
+                />
+
+                <text
+                  x="72"
+                  y="${y}"
+                  class="normal"
+                >
+                  ${escapeXML(
+                    shorten(
+                      submission.title,
+                      35
+                    )
+                  )}
+                </text>
+
+                <text
+                  x="445"
+                  y="${y}"
+                  class="muted"
+                >
+                  ${escapeXML(
+                    submission.lang || ""
+                  )}
+                </text>
+
+                <text
+                  x="600"
+                  y="${y}"
+                  class="muted"
+                >
+                  ${relativeTime(
+                    submission.timestamp
+                  )}
+                </text>`;
+              }
+            ).join("");
+
+          function progressBar(
+            label,
+            value,
+            total,
+            y,
+            color
+          ) {
+
+            const percent =
+              total
+                ? Math.min(
+                    100,
+                    value /
+                    total *
+                    100
+                  )
+                : 0;
+
+            return `
+            <text
+              x="330"
+              y="${y}"
+              class="normal"
+            >
+              ${label}
+            </text>
+
+            <text
+              x="690"
+              y="${y}"
+              text-anchor="end"
+              class="muted"
+            >
+              ${value} / ${total}
+            </text>
+
+            <rect
+              x="330"
+              y="${y + 12}"
+              width="360"
+              height="9"
+              rx="5"
+              fill="#21262d"
+            />
+
+            <rect
+              x="330"
+              y="${y + 12}"
+              width="${360 * percent / 100}"
+              height="9"
+              rx="5"
+              fill="${color}"
+            />`;
+          }
+
+          const radius = 68;
+
+          const circumference =
+            2 *
+            Math.PI *
+            radius;
+
+          const offset =
+            circumference *
+            (
+              1 -
+              performance / 100
+            );
+
+          const svg = `
+
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="1200"
+            height="680"
+            viewBox="0 0 1200 680"
+          >
+
+          <defs>
+
+            <linearGradient
+              id="background"
+              x1="0"
+              x2="1"
+            >
+              <stop
+                offset="0%"
+                stop-color="#0d1117"
+              />
+
+              <stop
+                offset="100%"
+                stop-color="#081522"
+              />
+            </linearGradient>
+
+            <linearGradient
+              id="accent"
+              x1="0"
+              x2="1"
+            >
+              <stop
+                stop-color="#58a6ff"
+              />
+
+              <stop
+                offset="100%"
+                stop-color="#21d9e8"
+              />
+            </linearGradient>
+
+            <style>
+
+              text {
+                font-family:
+                  Inter,
+                  Arial,
+                  sans-serif;
+              }
+
+              .title {
+                fill: #f0f6fc;
+                font-size: 28px;
+                font-weight: 700;
+              }
+
+              .section {
+                fill: #f0f6fc;
+                font-size: 15px;
+                font-weight: 700;
+              }
+
+              .big {
+                fill: #f0f6fc;
+                font-size: 28px;
+                font-weight: 800;
+              }
+
+              .normal {
+                fill: #c9d1d9;
+                font-size: 13px;
+                font-weight: 600;
+              }
+
+              .muted {
+                fill: #8b949e;
+                font-size: 12px;
+              }
+
+              .score {
+                fill: #f0f6fc;
+                font-size: 39px;
+                font-weight: 800;
+              }
+
+            </style>
+
+          </defs>
+
+          <rect
+            x="1"
+            y="1"
+            width="1198"
+            height="678"
+            rx="24"
+            fill="url(#background)"
+            stroke="#30363d"
+            stroke-width="2"
+          />
+
+          <!-- HEADER -->
+
+          <circle
+            cx="42"
+            cy="43"
+            r="9"
+            fill="#ffa116"
+          />
+
+          <text
+            x="62"
+            y="51"
+            class="title"
+          >
+            LeetCode Intelligence Dashboard
+          </text>
+
+          <text
+            x="62"
+            y="74"
+            class="muted"
+          >
+            @${USERNAME} • Live Problem-Solving Performance
+          </text>
+
+          <rect
+            x="1030"
+            y="27"
+            width="130"
+            height="33"
+            rx="17"
+            fill="#0f2217"
+            stroke="#238636"
+          />
+
+          <circle
+            cx="1052"
+            cy="43"
+            r="5"
+            fill="#3fb950"
+          />
+
+          <text
+            x="1067"
+            y="48"
+            class="normal"
+          >
+            LIVE
+          </text>
+
+          <!-- SCORE -->
+
+          <rect
+            x="32"
+            y="100"
+            width="245"
+            height="280"
+            rx="18"
+            fill="#111820"
+            stroke="#263241"
+          />
+
+          <text
+            x="55"
+            y="135"
+            class="section"
+          >
+            PERFORMANCE INDEX
+          </text>
+
+          <circle
+            cx="154"
+            cy="230"
+            r="${radius}"
+            fill="none"
+            stroke="#21262d"
+            stroke-width="14"
+          />
+
+          <circle
+            cx="154"
+            cy="230"
+            r="${radius}"
+            fill="none"
+            stroke="url(#accent)"
+            stroke-width="14"
+            stroke-linecap="round"
+            stroke-dasharray="${circumference}"
+            stroke-dashoffset="${offset}"
+            transform="rotate(-90 154 230)"
+          />
+
+          <text
+            x="154"
+            y="235"
+            text-anchor="middle"
+            class="score"
+          >
+            ${performance}
+          </text>
+
+          <text
+            x="154"
+            y="258"
+            text-anchor="middle"
+            class="muted"
+          >
+            CUSTOM / 100
+          </text>
+
+          <text
+            x="55"
+            y="330"
+            class="muted"
+          >
+            Global Ranking
+          </text>
+
+          <text
+            x="248"
+            y="330"
+            text-anchor="end"
+            class="normal"
+          >
+            #${format(
+              user.profile?.ranking
+            )}
+          </text>
+
+          <text
+            x="55"
+            y="355"
+            class="muted"
+          >
+            Active Days
+          </text>
+
+          <text
+            x="248"
+            y="355"
+            text-anchor="end"
+            class="normal"
+          >
+            ${format(activeDays)}
+          </text>
+
+          <!-- METRICS -->
+
+          ${metricCard(
+            300,
+            "TOTAL SOLVED",
+            format(solved.total),
+            `${(
+              solved.total /
+              Math.max(
+                totals.total,
+                1
+              ) *
+              100
+            ).toFixed(1)}% coverage`,
+            "#58a6ff"
+          )}
+
+          ${metricCard(
+            520,
+            "STREAK",
+            `${format(streak)} Days`,
+            `${format(activeDays)} active days`,
+            "#f2cc60"
+          )}
+
+          ${metricCard(
+            740,
+            "ACCEPTANCE",
+            `${acceptance.toFixed(1)}%`,
+            "Accepted / submitted",
+            "#3fb950"
+          )}
+
+          ${metricCard(
+            960,
+            "DAILY WINS",
+            format(
+              history.dailyWins.length
+            ),
+            `Tracked since ${history.started}`,
+            "#ffa116"
+          )}
+
+          <!-- DIFFICULTY -->
+
+          <rect
+            x="300"
+            y="210"
+            width="425"
+            height="170"
+            rx="18"
+            fill="#111820"
+            stroke="#263241"
+          />
+
+          <text
+            x="330"
+            y="244"
+            class="section"
+          >
+            DIFFICULTY PROGRESS
+          </text>
+
+          ${progressBar(
+            "Easy",
+            solved.easy,
+            totals.easy,
+            276,
+            "#00b8a3"
+          )}
+
+          ${progressBar(
+            "Medium",
+            solved.medium,
+            totals.medium,
+            320,
+            "#ffc01e"
+          )}
+
+          ${progressBar(
+            "Hard",
+            solved.hard,
+            totals.hard,
+            364,
+            "#ff375f"
+          )}
+
+          <!-- CONTEST -->
+
+          <rect
+            x="740"
+            y="210"
+            width="420"
+            height="170"
+            rx="18"
+            fill="#111820"
+            stroke="#263241"
+          />
+
+          <text
+            x="765"
+            y="244"
+            class="section"
+          >
+            CONTEST PERFORMANCE
+          </text>
+
+          <text
+            x="765"
+            y="285"
+            class="muted"
+          >
+            Rating
+          </text>
+
+          <text
+            x="865"
+            y="285"
+            class="big"
+          >
+            ${
+              contest.rating
+                ? Math.round(
+                    contest.rating
+                  )
+                : "—"
+            }
+          </text>
+
+          <text
+            x="970"
+            y="285"
+            class="muted"
+          >
+            Top
+          </text>
+
+          <text
+            x="1130"
+            y="285"
+            text-anchor="end"
+            class="big"
+          >
+            ${
+              contest.topPercentage
+                ? Number(
+                    contest.topPercentage
+                  ).toFixed(1) + "%"
+                : "—"
+            }
+          </text>
+
+          <text
+            x="765"
+            y="330"
+            class="muted"
+          >
+            Contests Attended
+          </text>
+
+          <text
+            x="900"
+            y="330"
+            class="normal"
+          >
+            ${format(
+              contest.attendedContestsCount
+            )}
+          </text>
+
+          <text
+            x="970"
+            y="330"
+            class="muted"
+          >
+            Contest Rank
+          </text>
+
+          <text
+            x="1130"
+            y="330"
+            text-anchor="end"
+            class="normal"
+          >
+            ${
+              contest.globalRanking
+                ? "#" +
+                  format(
+                    contest.globalRanking
+                  )
+                : "—"
+            }
+          </text>
+
+          <text
+            x="765"
+            y="360"
+            class="muted"
+          >
+            Daily Challenge Today
+          </text>
+
+          <text
+            x="1130"
+            y="360"
+            text-anchor="end"
+            class="normal"
+            fill="${
+              dailySolved
+                ? "#3fb950"
+                : "#f2cc60"
+            }"
+          >
+            ${
+              dailySolved
+                ? "SOLVED ✓"
+                : "PENDING"
+            }
+          </text>
+
+          <!-- RECENT ACTIVITY -->
+
+          <rect
+            x="32"
+            y="410"
+            width="693"
+            height="235"
+            rx="18"
+            fill="#111820"
+            stroke="#263241"
+          />
+
+          <text
+            x="55"
+            y="445"
+            class="section"
+          >
+            RECENT ACTIVITY
+          </text>
+
+          ${recentActivity}
+
+          <!-- HEATMAP -->
+
+          <rect
+            x="740"
+            y="410"
+            width="420"
+            height="235"
+            rx="18"
+            fill="#111820"
+            stroke="#263241"
+          />
+
+          <text
+            x="765"
+            y="445"
+            class="section"
+          >
+            12-WEEK ACTIVITY PULSE
+          </text>
+
+          ${heatmap}
+
+          <text
+            x="765"
+            y="625"
+            class="muted"
+          >
+            Daily Challenge:
+            ${escapeXML(
+              shorten(
+                daily?.question?.title ||
+                "Unavailable",
+                32
+              )
+            )}
+          </text>
+
+          </svg>
+          `;
+
+          function metricCard(
+            x,
+            title,
+            value,
+            note,
+            color
+          ) {
+
+            return `
+            <rect
+              x="${x}"
+              y="100"
+              width="${x === 960 ? 200 : 205}"
+              height="90"
+              rx="15"
+              fill="#111820"
+              stroke="#263241"
+            />
+
+            <rect
+              x="${x}"
+              y="100"
+              width="4"
+              height="90"
+              rx="2"
+              fill="${color}"
+            />
+
+            <text
+              x="${x + 20}"
+              y="130"
+              class="muted"
+            >
+              ${title}
+            </text>
+
+            <text
+              x="${x + 20}"
+              y="163"
+              class="big"
+            >
+              ${value}
+            </text>
+
+            <text
+              x="${x + 20}"
+              y="180"
+              class="muted"
+            >
+              ${note}
+            </text>`;
+          }
+
+          await fs.mkdir(
+            "assets",
+            { recursive: true }
+          );
+
+          await fs.writeFile(
+            "assets/leetcode-dashboard.svg",
+            svg
+          );
+
+          console.log(
+            "LeetCode Dashboard generated."
+          );
+
+          EOF
+
+          node generate-leetcode.mjs
+
+      - name: Commit updated dashboard
+        run: |
+          git config user.name "leetcode-dashboard-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add assets/leetcode-dashboard.svg
+          git add .leetcode-dashboard-history.json
+
+          git diff --cached --quiet && exit 0
+
+          git commit -m "chore: update LeetCode dashboard"
+          git push
