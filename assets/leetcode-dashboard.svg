@@ -187,7 +187,7 @@
   stroke-width="14"
   stroke-linecap="round"
   stroke-dasharray="427.2566008882119"
-  stroke-dashoffset="299.0796206217483"
+  stroke-dashoffset="294.8070546128662"
   transform="rotate(-90 154 230)"
 />
 
@@ -197,7 +197,7 @@
   text-anchor="middle"
   class="score"
 >
-  30
+  31
 </text>
 
 <text
@@ -223,7 +223,7 @@
   text-anchor="end"
   class="normal"
 >
-  #2,752,586
+  #2,719,726
 </text>
 
 <text
@@ -240,7 +240,7 @@
   text-anchor="end"
   class="normal"
 >
-  27
+  28
 </text>
 
 <!-- METRICS -->
@@ -278,7 +278,7 @@
     y="163"
     class="big"
   >
-    46
+    47
   </text>
 
   <text
@@ -322,7 +322,7 @@
     y="163"
     class="big"
   >
-    27 Days
+    28 Days
   </text>
 
   <text
@@ -330,7 +330,7 @@
     y="180"
     class="muted"
   >
-    27 active days
+    28 active days
   </text>
 
 
@@ -366,7 +366,7 @@
     y="163"
     class="big"
   >
-    91.4%
+    91.5%
   </text>
 
   <text
@@ -456,7 +456,7 @@
     text-anchor="end"
     class="muted"
   >
-    38 / 956
+    38 / 955
   </text>
 
   <rect
@@ -471,7 +471,7 @@
   <rect
     x="330"
     y="288"
-    width="14.309623430962342"
+    width="14.324607329842932"
     height="9"
     rx="5"
     fill="#00b8a3"
@@ -492,7 +492,7 @@
     text-anchor="end"
     class="muted"
   >
-    7 / 2088
+    8 / 2089
   </text>
 
   <rect
@@ -507,7 +507,7 @@
   <rect
     x="330"
     y="332"
-    width="1.206896551724138"
+    width="1.3786500718046912"
     height="9"
     rx="5"
     fill="#ffc01e"
@@ -686,7 +686,7 @@
         y="468"
         class="normal"
       >
-        Shift 2D Grid
+        Maximize Active Section with Trade…
       </text>
 
       <text
@@ -702,7 +702,7 @@
         y="468"
         class="muted"
       >
-        1d
+        19h
       </text>
       <circle
         cx="58"
@@ -716,7 +716,7 @@
         y="503"
         class="normal"
       >
-        Smallest Subsequence of Distinct C…
+        Shift 2D Grid
       </text>
 
       <text
@@ -732,7 +732,7 @@
         y="503"
         class="muted"
       >
-        1d
+        2d
       </text>
       <circle
         cx="58"
@@ -746,7 +746,7 @@
         y="538"
         class="normal"
       >
-        Find Greatest Common Divisor of Ar…
+        Smallest Subsequence of Distinct C…
       </text>
 
       <text
@@ -762,7 +762,7 @@
         y="538"
         class="muted"
       >
-        3d
+        2d
       </text>
       <circle
         cx="58"
@@ -776,7 +776,7 @@
         y="573"
         class="normal"
       >
-        Sorted GCD Pair Queries
+        Find Greatest Common Divisor of Ar…
       </text>
 
       <text
@@ -792,7 +792,7 @@
         y="573"
         class="muted"
       >
-        3d
+        4d
       </text>
       <circle
         cx="58"
@@ -806,7 +806,7 @@
         y="608"
         class="normal"
       >
-        Sum of GCD of Formed Pairs
+        Sorted GCD Pair Queries
       </text>
 
       <text
@@ -1292,7 +1292,7 @@
         width="15"
         height="15"
         rx="3"
-        fill="#161b22"
+        fill="#0e4429"
       />
       <rect
         x="978"
@@ -1316,7 +1316,7 @@
         width="15"
         height="15"
         rx="3"
-        fill="#0e4429"
+        fill="#006d32"
       />
       <rect
         x="978"
@@ -1324,7 +1324,7 @@
         width="15"
         height="15"
         rx="3"
-        fill="#006d32"
+        fill="#26a641"
       />
       <rect
         x="978"
@@ -1332,7 +1332,7 @@
         width="15"
         height="15"
         rx="3"
-        fill="#26a641"
+        fill="#0e4429"
       />
       <rect
         x="978"
@@ -1340,7 +1340,7 @@
         width="15"
         height="15"
         rx="3"
-        fill="#0e4429"
+        fill="#26a641"
       />
       <rect
         x="978"
@@ -1348,7 +1348,7 @@
         width="15"
         height="15"
         rx="3"
-        fill="#26a641"
+        fill="#006d32"
       />
       <rect
         x="1005"
@@ -1380,7 +1380,7 @@
         width="15"
         height="15"
         rx="3"
-        fill="#006d32"
+        fill="#0e4429"
       />
       <rect
         x="1005"
@@ -1396,7 +1396,7 @@
         width="15"
         height="15"
         rx="3"
-        fill="#0e4429"
+        fill="#39d353"
       />
       <rect
         x="1005"
@@ -1412,7 +1412,7 @@
         width="15"
         height="15"
         rx="3"
-        fill="#39d353"
+        fill="#006d32"
       />
       <rect
         x="1032"
@@ -1420,7 +1420,7 @@
         width="15"
         height="15"
         rx="3"
-        fill="#006d32"
+        fill="#0e4429"
       />
       <rect
         x="1032"
@@ -1436,7 +1436,7 @@
         width="15"
         height="15"
         rx="3"
-        fill="#0e4429"
+        fill="#006d32"
       />
       <rect
         x="1032"
@@ -1452,7 +1452,7 @@
         width="15"
         height="15"
         rx="3"
-        fill="#006d32"
+        fill="#0e4429"
       />
       <rect
         x="1032"
