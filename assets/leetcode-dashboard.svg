@@ -187,7 +187,7 @@
   stroke-width="14"
   stroke-linecap="round"
   stroke-dasharray="427.2566008882119"
-  stroke-dashoffset="294.8070546128662"
+  stroke-dashoffset="290.5344886039841"
   transform="rotate(-90 154 230)"
 />
 
@@ -197,7 +197,7 @@
   text-anchor="middle"
   class="score"
 >
-  31
+  32
 </text>
 
 <text
@@ -240,7 +240,7 @@
   text-anchor="end"
   class="normal"
 >
-  28
+  29
 </text>
 
 <!-- METRICS -->
@@ -278,7 +278,7 @@
     y="163"
     class="big"
   >
-    47
+    48
   </text>
 
   <text
@@ -322,7 +322,7 @@
     y="163"
     class="big"
   >
-    28 Days
+    29 Days
   </text>
 
   <text
@@ -330,7 +330,7 @@
     y="180"
     class="muted"
   >
-    28 active days
+    29 active days
   </text>
 
 
@@ -366,7 +366,7 @@
     y="163"
     class="big"
   >
-    91.5%
+    91.6%
   </text>
 
   <text
@@ -528,7 +528,7 @@
     text-anchor="end"
     class="muted"
   >
-    1 / 955
+    2 / 955
   </text>
 
   <rect
@@ -543,7 +543,7 @@
   <rect
     x="330"
     y="376"
-    width="0.3769633507853403"
+    width="0.7539267015706806"
     height="9"
     rx="5"
     fill="#ff375f"
@@ -702,7 +702,7 @@
         y="468"
         class="muted"
       >
-        19h
+        18h
       </text>
       <circle
         cx="58"
@@ -716,7 +716,7 @@
         y="503"
         class="normal"
       >
-        Shift 2D Grid
+        Maximize Active Section with Trade…
       </text>
 
       <text
@@ -732,7 +732,7 @@
         y="503"
         class="muted"
       >
-        2d
+        1d
       </text>
       <circle
         cx="58"
@@ -746,7 +746,7 @@
         y="538"
         class="normal"
       >
-        Smallest Subsequence of Distinct C…
+        Shift 2D Grid
       </text>
 
       <text
@@ -762,7 +762,7 @@
         y="538"
         class="muted"
       >
-        2d
+        3d
       </text>
       <circle
         cx="58"
@@ -776,7 +776,7 @@
         y="573"
         class="normal"
       >
-        Find Greatest Common Divisor of Ar…
+        Smallest Subsequence of Distinct C…
       </text>
 
       <text
@@ -792,7 +792,7 @@
         y="573"
         class="muted"
       >
-        4d
+        3d
       </text>
       <circle
         cx="58"
@@ -806,7 +806,7 @@
         y="608"
         class="normal"
       >
-        Sorted GCD Pair Queries
+        Find Greatest Common Divisor of Ar…
       </text>
 
       <text
@@ -822,7 +822,7 @@
         y="608"
         class="muted"
       >
-        4d
+        5d
       </text>
 
 <!-- HEATMAP -->
@@ -1284,7 +1284,7 @@
         width="15"
         height="15"
         rx="3"
-        fill="#161b22"
+        fill="#0e4429"
       />
       <rect
         x="951"
@@ -1308,7 +1308,7 @@
         width="15"
         height="15"
         rx="3"
-        fill="#0e4429"
+        fill="#006d32"
       />
       <rect
         x="978"
@@ -1316,7 +1316,7 @@
         width="15"
         height="15"
         rx="3"
-        fill="#006d32"
+        fill="#26a641"
       />
       <rect
         x="978"
@@ -1324,7 +1324,7 @@
         width="15"
         height="15"
         rx="3"
-        fill="#26a641"
+        fill="#0e4429"
       />
       <rect
         x="978"
@@ -1332,7 +1332,7 @@
         width="15"
         height="15"
         rx="3"
-        fill="#0e4429"
+        fill="#26a641"
       />
       <rect
         x="978"
@@ -1340,7 +1340,7 @@
         width="15"
         height="15"
         rx="3"
-        fill="#26a641"
+        fill="#006d32"
       />
       <rect
         x="978"
@@ -1372,7 +1372,7 @@
         width="15"
         height="15"
         rx="3"
-        fill="#006d32"
+        fill="#0e4429"
       />
       <rect
         x="1005"
@@ -1388,7 +1388,7 @@
         width="15"
         height="15"
         rx="3"
-        fill="#0e4429"
+        fill="#39d353"
       />
       <rect
         x="1005"
@@ -1404,7 +1404,7 @@
         width="15"
         height="15"
         rx="3"
-        fill="#39d353"
+        fill="#006d32"
       />
       <rect
         x="1032"
@@ -1412,7 +1412,7 @@
         width="15"
         height="15"
         rx="3"
-        fill="#006d32"
+        fill="#0e4429"
       />
       <rect
         x="1032"
@@ -1428,7 +1428,7 @@
         width="15"
         height="15"
         rx="3"
-        fill="#0e4429"
+        fill="#006d32"
       />
       <rect
         x="1032"
@@ -1444,7 +1444,7 @@
         width="15"
         height="15"
         rx="3"
-        fill="#006d32"
+        fill="#0e4429"
       />
       <rect
         x="1032"
@@ -1525,7 +1525,7 @@
   class="muted"
 >
   Daily Challenge:
-  Maximize Active Section with Tr…
+  Number of Unique XOR Triplets I
 </text>
 
 </svg>
