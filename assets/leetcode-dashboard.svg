@@ -223,7 +223,7 @@
   text-anchor="end"
   class="normal"
 >
-  #2,551,504
+  #2,522,179
 </text>
 
 <text
@@ -240,7 +240,7 @@
   text-anchor="end"
   class="normal"
 >
-  33
+  34
 </text>
 
 <!-- METRICS -->
@@ -278,7 +278,7 @@
     y="163"
     class="big"
   >
-    52
+    53
   </text>
 
   <text
@@ -322,7 +322,7 @@
     y="163"
     class="big"
   >
-    33 Days
+    34 Days
   </text>
 
   <text
@@ -330,7 +330,7 @@
     y="180"
     class="muted"
   >
-    33 active days
+    34 active days
   </text>
 
 
@@ -456,7 +456,7 @@
     text-anchor="end"
     class="muted"
   >
-    40 / 956
+    41 / 956
   </text>
 
   <rect
@@ -471,7 +471,7 @@
   <rect
     x="330"
     y="288"
-    width="15.06276150627615"
+    width="15.439330543933057"
     height="9"
     rx="5"
     fill="#00b8a3"
@@ -686,7 +686,7 @@
         y="468"
         class="normal"
       >
-        Maximum Product of Three Numbers
+        Maximum Product of Two Elements in…
       </text>
 
       <text
@@ -702,7 +702,7 @@
         y="468"
         class="muted"
       >
-        18h
+        15h
       </text>
       <circle
         cx="58"
@@ -716,7 +716,7 @@
         y="503"
         class="normal"
       >
-        Maximum Product of Two Digits
+        Maximum Product of Three Numbers
       </text>
 
       <text
@@ -746,7 +746,7 @@
         y="538"
         class="normal"
       >
-        Number of Unique XOR Triplets II
+        Maximum Product of Two Digits
       </text>
 
       <text
@@ -776,7 +776,7 @@
         y="573"
         class="normal"
       >
-        Number of Unique XOR Triplets I
+        Number of Unique XOR Triplets II
       </text>
 
       <text
@@ -806,7 +806,7 @@
         y="608"
         class="normal"
       >
-        Maximize Active Section with Trade…
+        Number of Unique XOR Triplets I
       </text>
 
       <text
@@ -1244,7 +1244,7 @@
         width="15"
         height="15"
         rx="3"
-        fill="#161b22"
+        fill="#0e4429"
       />
       <rect
         x="951"
@@ -1268,7 +1268,7 @@
         width="15"
         height="15"
         rx="3"
-        fill="#0e4429"
+        fill="#006d32"
       />
       <rect
         x="951"
@@ -1276,7 +1276,7 @@
         width="15"
         height="15"
         rx="3"
-        fill="#006d32"
+        fill="#26a641"
       />
       <rect
         x="951"
@@ -1284,7 +1284,7 @@
         width="15"
         height="15"
         rx="3"
-        fill="#26a641"
+        fill="#0e4429"
       />
       <rect
         x="951"
@@ -1292,7 +1292,7 @@
         width="15"
         height="15"
         rx="3"
-        fill="#0e4429"
+        fill="#26a641"
       />
       <rect
         x="978"
@@ -1300,7 +1300,7 @@
         width="15"
         height="15"
         rx="3"
-        fill="#26a641"
+        fill="#006d32"
       />
       <rect
         x="978"
@@ -1332,7 +1332,7 @@
         width="15"
         height="15"
         rx="3"
-        fill="#006d32"
+        fill="#0e4429"
       />
       <rect
         x="978"
@@ -1348,7 +1348,7 @@
         width="15"
         height="15"
         rx="3"
-        fill="#0e4429"
+        fill="#39d353"
       />
       <rect
         x="1005"
@@ -1364,7 +1364,7 @@
         width="15"
         height="15"
         rx="3"
-        fill="#39d353"
+        fill="#006d32"
       />
       <rect
         x="1005"
@@ -1372,7 +1372,7 @@
         width="15"
         height="15"
         rx="3"
-        fill="#006d32"
+        fill="#0e4429"
       />
       <rect
         x="1005"
@@ -1388,7 +1388,7 @@
         width="15"
         height="15"
         rx="3"
-        fill="#0e4429"
+        fill="#006d32"
       />
       <rect
         x="1005"
@@ -1404,7 +1404,7 @@
         width="15"
         height="15"
         rx="3"
-        fill="#006d32"
+        fill="#0e4429"
       />
       <rect
         x="1032"
@@ -1525,7 +1525,7 @@
   class="muted"
 >
   Daily Challenge:
-  Maximum Product of Two Elements…
+  Smallest Palindromic Rearrangem…
 </text>
 
 </svg>
