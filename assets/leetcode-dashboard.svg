@@ -187,7 +187,7 @@
   stroke-width="14"
   stroke-linecap="round"
   stroke-dasharray="427.2566008882119"
-  stroke-dashoffset="277.71679057733775"
+  stroke-dashoffset="273.44422456845564"
   transform="rotate(-90 154 230)"
 />
 
@@ -197,7 +197,7 @@
   text-anchor="middle"
   class="score"
 >
-  35
+  36
 </text>
 
 <text
@@ -223,7 +223,7 @@
   text-anchor="end"
   class="normal"
 >
-  #2,494,355
+  #2,467,081
 </text>
 
 <text
@@ -240,7 +240,7 @@
   text-anchor="end"
   class="normal"
 >
-  35
+  36
 </text>
 
 <!-- METRICS -->
@@ -278,7 +278,7 @@
     y="163"
     class="big"
   >
-    54
+    55
   </text>
 
   <text
@@ -286,7 +286,7 @@
     y="180"
     class="muted"
   >
-    1.3% coverage
+    1.4% coverage
   </text>
 
 
@@ -322,7 +322,7 @@
     y="163"
     class="big"
   >
-    35 Days
+    36 Days
   </text>
 
   <text
@@ -330,7 +330,7 @@
     y="180"
     class="muted"
   >
-    35 active days
+    36 active days
   </text>
 
 
@@ -366,7 +366,7 @@
     y="163"
     class="big"
   >
-    92.1%
+    92.2%
   </text>
 
   <text
@@ -528,7 +528,7 @@
     text-anchor="end"
     class="muted"
   >
-    2 / 958
+    3 / 958
   </text>
 
   <rect
@@ -543,7 +543,7 @@
   <rect
     x="330"
     y="376"
-    width="0.7515657620041751"
+    width="1.127348643006263"
     height="9"
     rx="5"
     fill="#ff375f"
@@ -702,7 +702,7 @@
         y="468"
         class="muted"
       >
-        17h
+        16h
       </text>
       <circle
         cx="58"
@@ -716,7 +716,7 @@
         y="503"
         class="normal"
       >
-        Maximum Product of Two Elements in…
+        Smallest Palindromic Rearrangement…
       </text>
 
       <text
@@ -746,7 +746,7 @@
         y="538"
         class="normal"
       >
-        Maximum Product of Three Numbers
+        Maximum Product of Two Elements in…
       </text>
 
       <text
@@ -776,7 +776,7 @@
         y="573"
         class="normal"
       >
-        Maximum Product of Two Digits
+        Maximum Product of Three Numbers
       </text>
 
       <text
@@ -806,7 +806,7 @@
         y="608"
         class="normal"
       >
-        Number of Unique XOR Triplets II
+        Maximum Product of Two Digits
       </text>
 
       <text
@@ -1228,7 +1228,7 @@
         width="15"
         height="15"
         rx="3"
-        fill="#161b22"
+        fill="#0e4429"
       />
       <rect
         x="924"
@@ -1252,7 +1252,7 @@
         width="15"
         height="15"
         rx="3"
-        fill="#0e4429"
+        fill="#006d32"
       />
       <rect
         x="951"
@@ -1260,7 +1260,7 @@
         width="15"
         height="15"
         rx="3"
-        fill="#006d32"
+        fill="#26a641"
       />
       <rect
         x="951"
@@ -1268,7 +1268,7 @@
         width="15"
         height="15"
         rx="3"
-        fill="#26a641"
+        fill="#0e4429"
       />
       <rect
         x="951"
@@ -1276,7 +1276,7 @@
         width="15"
         height="15"
         rx="3"
-        fill="#0e4429"
+        fill="#26a641"
       />
       <rect
         x="951"
@@ -1284,7 +1284,7 @@
         width="15"
         height="15"
         rx="3"
-        fill="#26a641"
+        fill="#006d32"
       />
       <rect
         x="951"
@@ -1316,7 +1316,7 @@
         width="15"
         height="15"
         rx="3"
-        fill="#006d32"
+        fill="#0e4429"
       />
       <rect
         x="978"
@@ -1332,7 +1332,7 @@
         width="15"
         height="15"
         rx="3"
-        fill="#0e4429"
+        fill="#39d353"
       />
       <rect
         x="978"
@@ -1348,7 +1348,7 @@
         width="15"
         height="15"
         rx="3"
-        fill="#39d353"
+        fill="#006d32"
       />
       <rect
         x="1005"
@@ -1356,7 +1356,7 @@
         width="15"
         height="15"
         rx="3"
-        fill="#006d32"
+        fill="#0e4429"
       />
       <rect
         x="1005"
@@ -1372,7 +1372,7 @@
         width="15"
         height="15"
         rx="3"
-        fill="#0e4429"
+        fill="#006d32"
       />
       <rect
         x="1005"
@@ -1388,7 +1388,7 @@
         width="15"
         height="15"
         rx="3"
-        fill="#006d32"
+        fill="#0e4429"
       />
       <rect
         x="1005"
@@ -1525,7 +1525,7 @@
   class="muted"
 >
   Daily Challenge:
-  Smallest Palindromic Rearrangem…
+  Minimum Number of Pushes to Typ…
 </text>
 
 </svg>
