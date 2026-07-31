@@ -223,7 +223,7 @@
   text-anchor="end"
   class="normal"
 >
-  #2,467,081
+  #2,440,574
 </text>
 
 <text
@@ -240,7 +240,7 @@
   text-anchor="end"
   class="normal"
 >
-  36
+  37
 </text>
 
 <!-- METRICS -->
@@ -278,7 +278,7 @@
     y="163"
     class="big"
   >
-    55
+    56
   </text>
 
   <text
@@ -322,7 +322,7 @@
     y="163"
     class="big"
   >
-    36 Days
+    37 Days
   </text>
 
   <text
@@ -330,7 +330,7 @@
     y="180"
     class="muted"
   >
-    36 active days
+    37 active days
   </text>
 
 
@@ -366,7 +366,7 @@
     y="163"
     class="big"
   >
-    92.2%
+    92.3%
   </text>
 
   <text
@@ -456,7 +456,7 @@
     text-anchor="end"
     class="muted"
   >
-    41 / 956
+    42 / 956
   </text>
 
   <rect
@@ -471,7 +471,7 @@
   <rect
     x="330"
     y="288"
-    width="15.439330543933057"
+    width="15.815899581589957"
     height="9"
     rx="5"
     fill="#00b8a3"
@@ -686,7 +686,7 @@
         y="468"
         class="normal"
       >
-        Smallest Palindromic Rearrangement…
+        Minimum Number of Pushes to Type W…
       </text>
 
       <text
@@ -702,7 +702,7 @@
         y="468"
         class="muted"
       >
-        16h
+        15h
       </text>
       <circle
         cx="58"
@@ -746,7 +746,7 @@
         y="538"
         class="normal"
       >
-        Maximum Product of Two Elements in…
+        Smallest Palindromic Rearrangement…
       </text>
 
       <text
@@ -776,7 +776,7 @@
         y="573"
         class="normal"
       >
-        Maximum Product of Three Numbers
+        Maximum Product of Two Elements in…
       </text>
 
       <text
@@ -806,7 +806,7 @@
         y="608"
         class="normal"
       >
-        Maximum Product of Two Digits
+        Maximum Product of Three Numbers
       </text>
 
       <text
@@ -1220,7 +1220,7 @@
         width="15"
         height="15"
         rx="3"
-        fill="#161b22"
+        fill="#0e4429"
       />
       <rect
         x="924"
@@ -1244,7 +1244,7 @@
         width="15"
         height="15"
         rx="3"
-        fill="#0e4429"
+        fill="#006d32"
       />
       <rect
         x="951"
@@ -1252,7 +1252,7 @@
         width="15"
         height="15"
         rx="3"
-        fill="#006d32"
+        fill="#26a641"
       />
       <rect
         x="951"
@@ -1260,7 +1260,7 @@
         width="15"
         height="15"
         rx="3"
-        fill="#26a641"
+        fill="#0e4429"
       />
       <rect
         x="951"
@@ -1268,7 +1268,7 @@
         width="15"
         height="15"
         rx="3"
-        fill="#0e4429"
+        fill="#26a641"
       />
       <rect
         x="951"
@@ -1276,7 +1276,7 @@
         width="15"
         height="15"
         rx="3"
-        fill="#26a641"
+        fill="#006d32"
       />
       <rect
         x="951"
@@ -1308,7 +1308,7 @@
         width="15"
         height="15"
         rx="3"
-        fill="#006d32"
+        fill="#0e4429"
       />
       <rect
         x="978"
@@ -1324,7 +1324,7 @@
         width="15"
         height="15"
         rx="3"
-        fill="#0e4429"
+        fill="#39d353"
       />
       <rect
         x="978"
@@ -1340,7 +1340,7 @@
         width="15"
         height="15"
         rx="3"
-        fill="#39d353"
+        fill="#006d32"
       />
       <rect
         x="978"
@@ -1348,7 +1348,7 @@
         width="15"
         height="15"
         rx="3"
-        fill="#006d32"
+        fill="#0e4429"
       />
       <rect
         x="1005"
@@ -1364,7 +1364,7 @@
         width="15"
         height="15"
         rx="3"
-        fill="#0e4429"
+        fill="#006d32"
       />
       <rect
         x="1005"
@@ -1380,7 +1380,7 @@
         width="15"
         height="15"
         rx="3"
-        fill="#006d32"
+        fill="#0e4429"
       />
       <rect
         x="1005"
