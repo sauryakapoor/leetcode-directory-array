@@ -223,7 +223,7 @@
   text-anchor="end"
   class="normal"
 >
-  #2,366,535
+  #2,341,992
 </text>
 
 <text
@@ -240,7 +240,7 @@
   text-anchor="end"
   class="normal"
 >
-  41
+  42
 </text>
 
 <!-- METRICS -->
@@ -278,7 +278,7 @@
     y="163"
     class="big"
   >
-    60
+    61
   </text>
 
   <text
@@ -330,7 +330,7 @@
     y="180"
     class="muted"
   >
-    41 active days
+    42 active days
   </text>
 
 
@@ -366,7 +366,7 @@
     y="163"
     class="big"
   >
-    92.7%
+    92.8%
   </text>
 
   <text
@@ -456,7 +456,7 @@
     text-anchor="end"
     class="muted"
   >
-    43 / 958
+    44 / 958
   </text>
 
   <rect
@@ -471,7 +471,7 @@
   <rect
     x="330"
     y="288"
-    width="16.158663883089773"
+    width="16.534446764091857"
     height="9"
     rx="5"
     fill="#00b8a3"
@@ -686,7 +686,7 @@
         y="468"
         class="normal"
       >
-        Find Missing Elements
+        Find the Town Judge
       </text>
 
       <text
@@ -702,7 +702,7 @@
         y="468"
         class="muted"
       >
-        12h
+        13h
       </text>
       <circle
         cx="58"
@@ -716,7 +716,7 @@
         y="503"
         class="normal"
       >
-        Stone Game
+        Find Missing Elements
       </text>
 
       <text
@@ -732,7 +732,7 @@
         y="503"
         class="muted"
       >
-        2d
+        1d
       </text>
       <circle
         cx="58"
@@ -746,7 +746,7 @@
         y="538"
         class="normal"
       >
-        Predict the Winner
+        Stone Game
       </text>
 
       <text
@@ -776,7 +776,7 @@
         y="573"
         class="normal"
       >
-        Minimum Number of Pushes to Type W…
+        Predict the Winner
       </text>
 
       <text
@@ -822,7 +822,7 @@
         y="608"
         class="muted"
       >
-        4d
+        5d
       </text>
 
 <!-- HEATMAP -->
@@ -1172,7 +1172,7 @@
         width="15"
         height="15"
         rx="3"
-        fill="#161b22"
+        fill="#0e4429"
       />
       <rect
         x="897"
@@ -1196,7 +1196,7 @@
         width="15"
         height="15"
         rx="3"
-        fill="#0e4429"
+        fill="#006d32"
       />
       <rect
         x="924"
@@ -1204,7 +1204,7 @@
         width="15"
         height="15"
         rx="3"
-        fill="#006d32"
+        fill="#26a641"
       />
       <rect
         x="924"
@@ -1212,7 +1212,7 @@
         width="15"
         height="15"
         rx="3"
-        fill="#26a641"
+        fill="#0e4429"
       />
       <rect
         x="924"
@@ -1220,7 +1220,7 @@
         width="15"
         height="15"
         rx="3"
-        fill="#0e4429"
+        fill="#26a641"
       />
       <rect
         x="924"
@@ -1228,7 +1228,7 @@
         width="15"
         height="15"
         rx="3"
-        fill="#26a641"
+        fill="#006d32"
       />
       <rect
         x="924"
@@ -1260,7 +1260,7 @@
         width="15"
         height="15"
         rx="3"
-        fill="#006d32"
+        fill="#0e4429"
       />
       <rect
         x="951"
@@ -1276,7 +1276,7 @@
         width="15"
         height="15"
         rx="3"
-        fill="#0e4429"
+        fill="#39d353"
       />
       <rect
         x="951"
@@ -1292,7 +1292,7 @@
         width="15"
         height="15"
         rx="3"
-        fill="#39d353"
+        fill="#006d32"
       />
       <rect
         x="978"
@@ -1300,7 +1300,7 @@
         width="15"
         height="15"
         rx="3"
-        fill="#006d32"
+        fill="#0e4429"
       />
       <rect
         x="978"
@@ -1316,7 +1316,7 @@
         width="15"
         height="15"
         rx="3"
-        fill="#0e4429"
+        fill="#006d32"
       />
       <rect
         x="978"
@@ -1332,7 +1332,7 @@
         width="15"
         height="15"
         rx="3"
-        fill="#006d32"
+        fill="#0e4429"
       />
       <rect
         x="978"
@@ -1468,7 +1468,7 @@
         width="15"
         height="15"
         rx="3"
-        fill="#0e4429"
+        fill="#006d32"
       />
       <rect
         x="1059"
@@ -1476,7 +1476,7 @@
         width="15"
         height="15"
         rx="3"
-        fill="#006d32"
+        fill="#0e4429"
       />
       <rect
         x="1059"
@@ -1489,18 +1489,18 @@
       <rect
         x="1059"
         y="527"
-        width="15"
-        height="15"
-        rx="3"
-        fill="#0e4429"
-      />
-      <rect
-        x="1059"
-        y="546"
         width="15"
         height="15"
         rx="3"
         fill="#161b22"
+      />
+      <rect
+        x="1059"
+        y="546"
+        width="15"
+        height="15"
+        rx="3"
+        fill="#0e4429"
       />
       <rect
         x="1059"
@@ -1525,7 +1525,7 @@
   class="muted"
 >
   Daily Challenge:
-  Remove Methods From Project
+  Smallest Divisible Digit Produc…
 </text>
 
 </svg>
