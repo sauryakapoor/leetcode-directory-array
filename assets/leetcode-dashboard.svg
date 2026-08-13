@@ -187,7 +187,7 @@
   stroke-width="14"
   stroke-linecap="round"
   stroke-dasharray="427.2566008882119"
-  stroke-dashoffset="264.89909255069136"
+  stroke-dashoffset="260.62652654180926"
   transform="rotate(-90 154 230)"
 />
 
@@ -197,7 +197,7 @@
   text-anchor="middle"
   class="score"
 >
-  38
+  39
 </text>
 
 <text
@@ -223,7 +223,7 @@
   text-anchor="end"
   class="normal"
 >
-  #2,327,540
+  #2,304,196
 </text>
 
 <text
@@ -240,7 +240,7 @@
   text-anchor="end"
   class="normal"
 >
-  43
+  44
 </text>
 
 <!-- METRICS -->
@@ -278,7 +278,7 @@
     y="163"
     class="big"
   >
-    62
+    63
   </text>
 
   <text
@@ -286,7 +286,7 @@
     y="180"
     class="muted"
   >
-    1.5% coverage
+    1.6% coverage
   </text>
 
 
@@ -330,7 +330,7 @@
     y="180"
     class="muted"
   >
-    43 active days
+    44 active days
   </text>
 
 
@@ -492,7 +492,7 @@
     text-anchor="end"
     class="muted"
   >
-    14 / 2098
+    15 / 2098
   </text>
 
   <rect
@@ -507,7 +507,7 @@
   <rect
     x="330"
     y="332"
-    width="2.402287893231649"
+    width="2.5738798856053386"
     height="9"
     rx="5"
     fill="#ffc01e"
@@ -686,7 +686,7 @@
         y="468"
         class="normal"
       >
-        Smallest Missing Integer Greater T…
+        Length of Longest Subarray With at…
       </text>
 
       <text
@@ -716,7 +716,7 @@
         y="503"
         class="normal"
       >
-        Find the Town Judge
+        Smallest Missing Integer Greater T…
       </text>
 
       <text
@@ -732,7 +732,7 @@
         y="503"
         class="muted"
       >
-        6d
+        1d
       </text>
       <circle
         cx="58"
@@ -746,7 +746,7 @@
         y="538"
         class="normal"
       >
-        Find Missing Elements
+        Find the Town Judge
       </text>
 
       <text
@@ -776,7 +776,7 @@
         y="573"
         class="normal"
       >
-        Stone Game
+        Find Missing Elements
       </text>
 
       <text
@@ -792,7 +792,7 @@
         y="573"
         class="muted"
       >
-        9d
+        8d
       </text>
       <circle
         cx="58"
@@ -806,7 +806,7 @@
         y="608"
         class="normal"
       >
-        Predict the Winner
+        Stone Game
       </text>
 
       <text
@@ -1116,7 +1116,7 @@
         width="15"
         height="15"
         rx="3"
-        fill="#161b22"
+        fill="#0e4429"
       />
       <rect
         x="870"
@@ -1140,7 +1140,7 @@
         width="15"
         height="15"
         rx="3"
-        fill="#0e4429"
+        fill="#006d32"
       />
       <rect
         x="897"
@@ -1148,7 +1148,7 @@
         width="15"
         height="15"
         rx="3"
-        fill="#006d32"
+        fill="#26a641"
       />
       <rect
         x="897"
@@ -1156,7 +1156,7 @@
         width="15"
         height="15"
         rx="3"
-        fill="#26a641"
+        fill="#0e4429"
       />
       <rect
         x="897"
@@ -1164,7 +1164,7 @@
         width="15"
         height="15"
         rx="3"
-        fill="#0e4429"
+        fill="#26a641"
       />
       <rect
         x="897"
@@ -1172,7 +1172,7 @@
         width="15"
         height="15"
         rx="3"
-        fill="#26a641"
+        fill="#006d32"
       />
       <rect
         x="897"
@@ -1204,7 +1204,7 @@
         width="15"
         height="15"
         rx="3"
-        fill="#006d32"
+        fill="#0e4429"
       />
       <rect
         x="924"
@@ -1220,7 +1220,7 @@
         width="15"
         height="15"
         rx="3"
-        fill="#0e4429"
+        fill="#39d353"
       />
       <rect
         x="924"
@@ -1236,7 +1236,7 @@
         width="15"
         height="15"
         rx="3"
-        fill="#39d353"
+        fill="#006d32"
       />
       <rect
         x="951"
@@ -1244,7 +1244,7 @@
         width="15"
         height="15"
         rx="3"
-        fill="#006d32"
+        fill="#0e4429"
       />
       <rect
         x="951"
@@ -1260,7 +1260,7 @@
         width="15"
         height="15"
         rx="3"
-        fill="#0e4429"
+        fill="#006d32"
       />
       <rect
         x="951"
@@ -1276,7 +1276,7 @@
         width="15"
         height="15"
         rx="3"
-        fill="#006d32"
+        fill="#0e4429"
       />
       <rect
         x="951"
@@ -1412,7 +1412,7 @@
         width="15"
         height="15"
         rx="3"
-        fill="#0e4429"
+        fill="#006d32"
       />
       <rect
         x="1032"
@@ -1420,7 +1420,7 @@
         width="15"
         height="15"
         rx="3"
-        fill="#006d32"
+        fill="#0e4429"
       />
       <rect
         x="1032"
@@ -1436,7 +1436,7 @@
         width="15"
         height="15"
         rx="3"
-        fill="#0e4429"
+        fill="#161b22"
       />
       <rect
         x="1032"
@@ -1444,7 +1444,7 @@
         width="15"
         height="15"
         rx="3"
-        fill="#161b22"
+        fill="#0e4429"
       />
       <rect
         x="1032"
@@ -1460,7 +1460,7 @@
         width="15"
         height="15"
         rx="3"
-        fill="#0e4429"
+        fill="#161b22"
       />
       <rect
         x="1059"
@@ -1500,7 +1500,7 @@
         width="15"
         height="15"
         rx="3"
-        fill="#161b22"
+        fill="#0e4429"
       />
       <rect
         x="1059"
@@ -1525,7 +1525,7 @@
   class="muted"
 >
   Daily Challenge:
-  Length of Longest Subarray With…
+  Longest Substring of One Repeat…
 </text>
 
 </svg>
