@@ -223,7 +223,7 @@
   text-anchor="end"
   class="normal"
 >
-  #2,262,225
+  #2,263,783
 </text>
 
 <text
@@ -528,7 +528,7 @@
     text-anchor="end"
     class="muted"
   >
-    3 / 970
+    3 / 971
   </text>
 
   <rect
@@ -543,7 +543,7 @@
   <rect
     x="330"
     y="376"
-    width="1.1134020618556701"
+    width="1.1122554067971164"
     height="9"
     rx="5"
     fill="#ff375f"
@@ -702,7 +702,7 @@
         y="468"
         class="muted"
       >
-        2d
+        3d
       </text>
       <circle
         cx="58"
@@ -732,7 +732,7 @@
         y="503"
         class="muted"
       >
-        9d
+        10d
       </text>
       <circle
         cx="58"
@@ -762,7 +762,7 @@
         y="538"
         class="muted"
       >
-        19d
+        20d
       </text>
       <circle
         cx="58"
@@ -792,7 +792,7 @@
         y="573"
         class="muted"
       >
-        20d
+        21d
       </text>
       <circle
         cx="58"
@@ -822,7 +822,7 @@
         y="608"
         class="muted"
       >
-        26d
+        27d
       </text>
 
 <!-- HEATMAP -->
@@ -956,7 +956,7 @@
         width="15"
         height="15"
         rx="3"
-        fill="#161b22"
+        fill="#0e4429"
       />
       <rect
         x="816"
@@ -980,7 +980,7 @@
         width="15"
         height="15"
         rx="3"
-        fill="#0e4429"
+        fill="#006d32"
       />
       <rect
         x="816"
@@ -988,7 +988,7 @@
         width="15"
         height="15"
         rx="3"
-        fill="#006d32"
+        fill="#26a641"
       />
       <rect
         x="816"
@@ -996,7 +996,7 @@
         width="15"
         height="15"
         rx="3"
-        fill="#26a641"
+        fill="#0e4429"
       />
       <rect
         x="816"
@@ -1004,7 +1004,7 @@
         width="15"
         height="15"
         rx="3"
-        fill="#0e4429"
+        fill="#26a641"
       />
       <rect
         x="816"
@@ -1012,7 +1012,7 @@
         width="15"
         height="15"
         rx="3"
-        fill="#26a641"
+        fill="#006d32"
       />
       <rect
         x="843"
@@ -1044,7 +1044,7 @@
         width="15"
         height="15"
         rx="3"
-        fill="#006d32"
+        fill="#0e4429"
       />
       <rect
         x="843"
@@ -1060,7 +1060,7 @@
         width="15"
         height="15"
         rx="3"
-        fill="#0e4429"
+        fill="#39d353"
       />
       <rect
         x="843"
@@ -1076,11 +1076,27 @@
         width="15"
         height="15"
         rx="3"
-        fill="#39d353"
+        fill="#006d32"
       />
       <rect
         x="870"
         y="489"
+        width="15"
+        height="15"
+        rx="3"
+        fill="#0e4429"
+      />
+      <rect
+        x="870"
+        y="508"
+        width="15"
+        height="15"
+        rx="3"
+        fill="#0e4429"
+      />
+      <rect
+        x="870"
+        y="527"
         width="15"
         height="15"
         rx="3"
@@ -1088,22 +1104,6 @@
       />
       <rect
         x="870"
-        y="508"
-        width="15"
-        height="15"
-        rx="3"
-        fill="#0e4429"
-      />
-      <rect
-        x="870"
-        y="527"
-        width="15"
-        height="15"
-        rx="3"
-        fill="#0e4429"
-      />
-      <rect
-        x="870"
         y="546"
         width="15"
         height="15"
@@ -1116,7 +1116,7 @@
         width="15"
         height="15"
         rx="3"
-        fill="#006d32"
+        fill="#0e4429"
       />
       <rect
         x="870"
@@ -1252,18 +1252,18 @@
         width="15"
         height="15"
         rx="3"
-        fill="#0e4429"
-      />
-      <rect
-        x="951"
-        y="508"
-        width="15"
-        height="15"
-        rx="3"
         fill="#006d32"
       />
       <rect
         x="951"
+        y="508"
+        width="15"
+        height="15"
+        rx="3"
+        fill="#0e4429"
+      />
+      <rect
+        x="951"
         y="527"
         width="15"
         height="15"
@@ -1276,7 +1276,7 @@
         width="15"
         height="15"
         rx="3"
-        fill="#0e4429"
+        fill="#161b22"
       />
       <rect
         x="951"
@@ -1284,7 +1284,7 @@
         width="15"
         height="15"
         rx="3"
-        fill="#161b22"
+        fill="#0e4429"
       />
       <rect
         x="951"
@@ -1300,7 +1300,7 @@
         width="15"
         height="15"
         rx="3"
-        fill="#0e4429"
+        fill="#161b22"
       />
       <rect
         x="978"
@@ -1340,7 +1340,7 @@
         width="15"
         height="15"
         rx="3"
-        fill="#161b22"
+        fill="#0e4429"
       />
       <rect
         x="978"
@@ -1356,7 +1356,7 @@
         width="15"
         height="15"
         rx="3"
-        fill="#0e4429"
+        fill="#161b22"
       />
       <rect
         x="1005"
@@ -1436,7 +1436,7 @@
         width="15"
         height="15"
         rx="3"
-        fill="#161b22"
+        fill="#0e4429"
       />
       <rect
         x="1032"
@@ -1444,7 +1444,7 @@
         width="15"
         height="15"
         rx="3"
-        fill="#0e4429"
+        fill="#161b22"
       />
       <rect
         x="1032"
@@ -1484,7 +1484,7 @@
         width="15"
         height="15"
         rx="3"
-        fill="#161b22"
+        fill="#0e4429"
       />
       <rect
         x="1059"
@@ -1492,7 +1492,7 @@
         width="15"
         height="15"
         rx="3"
-        fill="#0e4429"
+        fill="#161b22"
       />
       <rect
         x="1059"
@@ -1525,7 +1525,7 @@
   class="muted"
 >
   Daily Challenge:
-  Minimum Moves to Clean the Clas…
+  Construct Uniform Parity Array I
 </text>
 
 </svg>
