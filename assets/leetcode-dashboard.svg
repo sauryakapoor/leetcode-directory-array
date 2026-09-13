@@ -223,7 +223,7 @@
   text-anchor="end"
   class="normal"
 >
-  #2,280,219
+  #2,281,585
 </text>
 
 <text
@@ -456,7 +456,7 @@
     text-anchor="end"
     class="muted"
   >
-    46 / 963
+    46 / 965
   </text>
 
   <rect
@@ -471,7 +471,7 @@
   <rect
     x="330"
     y="288"
-    width="17.19626168224299"
+    width="17.16062176165803"
     height="9"
     rx="5"
     fill="#00b8a3"
@@ -492,7 +492,7 @@
     text-anchor="end"
     class="muted"
   >
-    16 / 2111
+    16 / 2115
   </text>
 
   <rect
@@ -507,7 +507,7 @@
   <rect
     x="330"
     y="332"
-    width="2.7285646612979635"
+    width="2.723404255319149"
     height="9"
     rx="5"
     fill="#ffc01e"
@@ -528,7 +528,7 @@
     text-anchor="end"
     class="muted"
   >
-    3 / 973
+    3 / 975
   </text>
 
   <rect
@@ -543,7 +543,7 @@
   <rect
     x="330"
     y="376"
-    width="1.1099691675231242"
+    width="1.1076923076923078"
     height="9"
     rx="5"
     fill="#ff375f"
@@ -702,7 +702,7 @@
         y="468"
         class="muted"
       >
-        13d
+        14d
       </text>
       <circle
         cx="58"
@@ -732,7 +732,7 @@
         y="503"
         class="muted"
       >
-        20d
+        21d
       </text>
       <circle
         cx="58"
@@ -762,7 +762,7 @@
         y="538"
         class="muted"
       >
-        30d
+        31d
       </text>
       <circle
         cx="58"
@@ -792,7 +792,7 @@
         y="573"
         class="muted"
       >
-        31d
+        32d
       </text>
       <circle
         cx="58"
@@ -822,7 +822,7 @@
         y="608"
         class="muted"
       >
-        37d
+        38d
       </text>
 
 <!-- HEATMAP -->
@@ -868,7 +868,7 @@
         width="15"
         height="15"
         rx="3"
-        fill="#161b22"
+        fill="#0e4429"
       />
       <rect
         x="762"
@@ -892,7 +892,7 @@
         width="15"
         height="15"
         rx="3"
-        fill="#0e4429"
+        fill="#006d32"
       />
       <rect
         x="762"
@@ -900,7 +900,7 @@
         width="15"
         height="15"
         rx="3"
-        fill="#006d32"
+        fill="#26a641"
       />
       <rect
         x="789"
@@ -908,7 +908,7 @@
         width="15"
         height="15"
         rx="3"
-        fill="#26a641"
+        fill="#0e4429"
       />
       <rect
         x="789"
@@ -916,7 +916,7 @@
         width="15"
         height="15"
         rx="3"
-        fill="#0e4429"
+        fill="#26a641"
       />
       <rect
         x="789"
@@ -924,7 +924,7 @@
         width="15"
         height="15"
         rx="3"
-        fill="#26a641"
+        fill="#006d32"
       />
       <rect
         x="789"
@@ -956,7 +956,7 @@
         width="15"
         height="15"
         rx="3"
-        fill="#006d32"
+        fill="#0e4429"
       />
       <rect
         x="816"
@@ -972,7 +972,7 @@
         width="15"
         height="15"
         rx="3"
-        fill="#0e4429"
+        fill="#39d353"
       />
       <rect
         x="816"
@@ -988,19 +988,11 @@
         width="15"
         height="15"
         rx="3"
-        fill="#39d353"
-      />
-      <rect
-        x="816"
-        y="546"
-        width="15"
-        height="15"
-        rx="3"
         fill="#006d32"
       />
       <rect
         x="816"
-        y="565"
+        y="546"
         width="15"
         height="15"
         rx="3"
@@ -1008,11 +1000,19 @@
       />
       <rect
         x="816"
-        y="584"
+        y="565"
         width="15"
         height="15"
         rx="3"
         fill="#0e4429"
+      />
+      <rect
+        x="816"
+        y="584"
+        width="15"
+        height="15"
+        rx="3"
+        fill="#006d32"
       />
       <rect
         x="843"
@@ -1028,7 +1028,7 @@
         width="15"
         height="15"
         rx="3"
-        fill="#006d32"
+        fill="#0e4429"
       />
       <rect
         x="843"
@@ -1161,14 +1161,6 @@
       <rect
         x="897"
         y="546"
-        width="15"
-        height="15"
-        rx="3"
-        fill="#0e4429"
-      />
-      <rect
-        x="897"
-        y="565"
         width="15"
         height="15"
         rx="3"
@@ -1176,6 +1168,14 @@
       />
       <rect
         x="897"
+        y="565"
+        width="15"
+        height="15"
+        rx="3"
+        fill="#0e4429"
+      />
+      <rect
+        x="897"
         y="584"
         width="15"
         height="15"
@@ -1188,7 +1188,7 @@
         width="15"
         height="15"
         rx="3"
-        fill="#0e4429"
+        fill="#161b22"
       />
       <rect
         x="924"
@@ -1196,7 +1196,7 @@
         width="15"
         height="15"
         rx="3"
-        fill="#161b22"
+        fill="#0e4429"
       />
       <rect
         x="924"
@@ -1212,7 +1212,7 @@
         width="15"
         height="15"
         rx="3"
-        fill="#0e4429"
+        fill="#161b22"
       />
       <rect
         x="924"
@@ -1252,7 +1252,7 @@
         width="15"
         height="15"
         rx="3"
-        fill="#161b22"
+        fill="#0e4429"
       />
       <rect
         x="951"
@@ -1268,7 +1268,7 @@
         width="15"
         height="15"
         rx="3"
-        fill="#0e4429"
+        fill="#161b22"
       />
       <rect
         x="951"
@@ -1348,7 +1348,7 @@
         width="15"
         height="15"
         rx="3"
-        fill="#161b22"
+        fill="#0e4429"
       />
       <rect
         x="1005"
@@ -1356,7 +1356,7 @@
         width="15"
         height="15"
         rx="3"
-        fill="#0e4429"
+        fill="#161b22"
       />
       <rect
         x="1005"
@@ -1396,7 +1396,7 @@
         width="15"
         height="15"
         rx="3"
-        fill="#161b22"
+        fill="#0e4429"
       />
       <rect
         x="1005"
@@ -1404,7 +1404,7 @@
         width="15"
         height="15"
         rx="3"
-        fill="#0e4429"
+        fill="#161b22"
       />
       <rect
         x="1032"
@@ -1525,7 +1525,7 @@
   class="muted"
 >
   Daily Challenge:
-  Maximum Score of Non-overlappin…
+  Image Overlap
 </text>
 
 </svg>
