@@ -223,7 +223,7 @@
   text-anchor="end"
   class="normal"
 >
-  #2,303,056
+  #2,304,504
 </text>
 
 <text
@@ -702,7 +702,7 @@
         y="468"
         class="muted"
       >
-        28d
+        29d
       </text>
       <circle
         cx="58"
@@ -732,7 +732,7 @@
         y="503"
         class="muted"
       >
-        35d
+        36d
       </text>
       <circle
         cx="58"
@@ -762,7 +762,7 @@
         y="538"
         class="muted"
       >
-        45d
+        46d
       </text>
       <circle
         cx="58"
@@ -792,7 +792,7 @@
         y="573"
         class="muted"
       >
-        46d
+        47d
       </text>
       <circle
         cx="58"
@@ -822,7 +822,7 @@
         y="608"
         class="muted"
       >
-        52d
+        53d
       </text>
 
 <!-- HEATMAP -->
@@ -852,7 +852,7 @@
         width="15"
         height="15"
         rx="3"
-        fill="#0e4429"
+        fill="#39d353"
       />
       <rect
         x="762"
@@ -868,19 +868,11 @@
         width="15"
         height="15"
         rx="3"
-        fill="#39d353"
-      />
-      <rect
-        x="762"
-        y="527"
-        width="15"
-        height="15"
-        rx="3"
         fill="#006d32"
       />
       <rect
         x="762"
-        y="546"
+        y="527"
         width="15"
         height="15"
         rx="3"
@@ -888,11 +880,19 @@
       />
       <rect
         x="762"
-        y="565"
+        y="546"
         width="15"
         height="15"
         rx="3"
         fill="#0e4429"
+      />
+      <rect
+        x="762"
+        y="565"
+        width="15"
+        height="15"
+        rx="3"
+        fill="#006d32"
       />
       <rect
         x="762"
@@ -908,7 +908,7 @@
         width="15"
         height="15"
         rx="3"
-        fill="#006d32"
+        fill="#0e4429"
       />
       <rect
         x="789"
@@ -1041,14 +1041,6 @@
       <rect
         x="843"
         y="527"
-        width="15"
-        height="15"
-        rx="3"
-        fill="#0e4429"
-      />
-      <rect
-        x="843"
-        y="546"
         width="15"
         height="15"
         rx="3"
@@ -1056,6 +1048,14 @@
       />
       <rect
         x="843"
+        y="546"
+        width="15"
+        height="15"
+        rx="3"
+        fill="#0e4429"
+      />
+      <rect
+        x="843"
         y="565"
         width="15"
         height="15"
@@ -1068,7 +1068,7 @@
         width="15"
         height="15"
         rx="3"
-        fill="#0e4429"
+        fill="#161b22"
       />
       <rect
         x="870"
@@ -1076,7 +1076,7 @@
         width="15"
         height="15"
         rx="3"
-        fill="#161b22"
+        fill="#0e4429"
       />
       <rect
         x="870"
@@ -1092,7 +1092,7 @@
         width="15"
         height="15"
         rx="3"
-        fill="#0e4429"
+        fill="#161b22"
       />
       <rect
         x="870"
@@ -1132,7 +1132,7 @@
         width="15"
         height="15"
         rx="3"
-        fill="#161b22"
+        fill="#0e4429"
       />
       <rect
         x="897"
@@ -1148,7 +1148,7 @@
         width="15"
         height="15"
         rx="3"
-        fill="#0e4429"
+        fill="#161b22"
       />
       <rect
         x="897"
@@ -1228,7 +1228,7 @@
         width="15"
         height="15"
         rx="3"
-        fill="#161b22"
+        fill="#0e4429"
       />
       <rect
         x="924"
@@ -1236,7 +1236,7 @@
         width="15"
         height="15"
         rx="3"
-        fill="#0e4429"
+        fill="#161b22"
       />
       <rect
         x="951"
@@ -1276,7 +1276,7 @@
         width="15"
         height="15"
         rx="3"
-        fill="#161b22"
+        fill="#0e4429"
       />
       <rect
         x="951"
@@ -1284,7 +1284,7 @@
         width="15"
         height="15"
         rx="3"
-        fill="#0e4429"
+        fill="#161b22"
       />
       <rect
         x="951"
@@ -1525,7 +1525,7 @@
   class="muted"
 >
   Daily Challenge:
-  Reverse Substrings Between Each…
+  Maximum Nesting Depth of the Pa…
 </text>
 
 </svg>
