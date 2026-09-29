@@ -223,7 +223,7 @@
   text-anchor="end"
   class="normal"
 >
-  #2,304,504
+  #2,306,041
 </text>
 
 <text
@@ -702,7 +702,7 @@
         y="468"
         class="muted"
       >
-        29d
+        30d
       </text>
       <circle
         cx="58"
@@ -732,7 +732,7 @@
         y="503"
         class="muted"
       >
-        36d
+        37d
       </text>
       <circle
         cx="58"
@@ -762,7 +762,7 @@
         y="538"
         class="muted"
       >
-        46d
+        47d
       </text>
       <circle
         cx="58"
@@ -792,7 +792,7 @@
         y="573"
         class="muted"
       >
-        47d
+        48d
       </text>
       <circle
         cx="58"
@@ -822,7 +822,7 @@
         y="608"
         class="muted"
       >
-        53d
+        54d
       </text>
 
 <!-- HEATMAP -->
@@ -860,11 +860,27 @@
         width="15"
         height="15"
         rx="3"
-        fill="#39d353"
+        fill="#006d32"
       />
       <rect
         x="762"
         y="508"
+        width="15"
+        height="15"
+        rx="3"
+        fill="#0e4429"
+      />
+      <rect
+        x="762"
+        y="527"
+        width="15"
+        height="15"
+        rx="3"
+        fill="#0e4429"
+      />
+      <rect
+        x="762"
+        y="546"
         width="15"
         height="15"
         rx="3"
@@ -872,22 +888,6 @@
       />
       <rect
         x="762"
-        y="527"
-        width="15"
-        height="15"
-        rx="3"
-        fill="#0e4429"
-      />
-      <rect
-        x="762"
-        y="546"
-        width="15"
-        height="15"
-        rx="3"
-        fill="#0e4429"
-      />
-      <rect
-        x="762"
         y="565"
         width="15"
         height="15"
@@ -900,7 +900,7 @@
         width="15"
         height="15"
         rx="3"
-        fill="#006d32"
+        fill="#0e4429"
       />
       <rect
         x="789"
@@ -1033,14 +1033,6 @@
       <rect
         x="843"
         y="508"
-        width="15"
-        height="15"
-        rx="3"
-        fill="#0e4429"
-      />
-      <rect
-        x="843"
-        y="527"
         width="15"
         height="15"
         rx="3"
@@ -1048,6 +1040,14 @@
       />
       <rect
         x="843"
+        y="527"
+        width="15"
+        height="15"
+        rx="3"
+        fill="#0e4429"
+      />
+      <rect
+        x="843"
         y="546"
         width="15"
         height="15"
@@ -1060,7 +1060,7 @@
         width="15"
         height="15"
         rx="3"
-        fill="#0e4429"
+        fill="#161b22"
       />
       <rect
         x="843"
@@ -1068,7 +1068,7 @@
         width="15"
         height="15"
         rx="3"
-        fill="#161b22"
+        fill="#0e4429"
       />
       <rect
         x="870"
@@ -1084,7 +1084,7 @@
         width="15"
         height="15"
         rx="3"
-        fill="#0e4429"
+        fill="#161b22"
       />
       <rect
         x="870"
@@ -1124,7 +1124,7 @@
         width="15"
         height="15"
         rx="3"
-        fill="#161b22"
+        fill="#0e4429"
       />
       <rect
         x="897"
@@ -1140,7 +1140,7 @@
         width="15"
         height="15"
         rx="3"
-        fill="#0e4429"
+        fill="#161b22"
       />
       <rect
         x="897"
@@ -1220,7 +1220,7 @@
         width="15"
         height="15"
         rx="3"
-        fill="#161b22"
+        fill="#0e4429"
       />
       <rect
         x="924"
@@ -1228,7 +1228,7 @@
         width="15"
         height="15"
         rx="3"
-        fill="#0e4429"
+        fill="#161b22"
       />
       <rect
         x="924"
@@ -1268,7 +1268,7 @@
         width="15"
         height="15"
         rx="3"
-        fill="#161b22"
+        fill="#0e4429"
       />
       <rect
         x="951"
@@ -1276,7 +1276,7 @@
         width="15"
         height="15"
         rx="3"
-        fill="#0e4429"
+        fill="#161b22"
       />
       <rect
         x="951"
@@ -1525,7 +1525,7 @@
   class="muted"
 >
   Daily Challenge:
-  Maximum Nesting Depth of the Pa…
+   Check if There Is a Valid Pare…
 </text>
 
 </svg>
