@@ -223,7 +223,7 @@
   text-anchor="end"
   class="normal"
 >
-  #2,312,170
+  #2,313,471
 </text>
 
 <text
@@ -456,7 +456,7 @@
     text-anchor="end"
     class="muted"
   >
-    46 / 968
+    46 / 969
   </text>
 
   <rect
@@ -471,7 +471,7 @@
   <rect
     x="330"
     y="288"
-    width="17.107438016528928"
+    width="17.089783281733748"
     height="9"
     rx="5"
     fill="#00b8a3"
@@ -492,7 +492,7 @@
     text-anchor="end"
     class="muted"
   >
-    16 / 2122
+    16 / 2124
   </text>
 
   <rect
@@ -507,7 +507,7 @@
   <rect
     x="330"
     y="332"
-    width="2.714420358152686"
+    width="2.7118644067796613"
     height="9"
     rx="5"
     fill="#ffc01e"
@@ -528,7 +528,7 @@
     text-anchor="end"
     class="muted"
   >
-    3 / 979
+    3 / 980
   </text>
 
   <rect
@@ -543,7 +543,7 @@
   <rect
     x="330"
     y="376"
-    width="1.1031664964249233"
+    width="1.1020408163265305"
     height="9"
     rx="5"
     fill="#ff375f"
@@ -702,7 +702,7 @@
         y="468"
         class="muted"
       >
-        34d
+        35d
       </text>
       <circle
         cx="58"
@@ -732,7 +732,7 @@
         y="503"
         class="muted"
       >
-        41d
+        42d
       </text>
       <circle
         cx="58"
@@ -762,7 +762,7 @@
         y="538"
         class="muted"
       >
-        51d
+        52d
       </text>
       <circle
         cx="58"
@@ -792,7 +792,7 @@
         y="573"
         class="muted"
       >
-        52d
+        53d
       </text>
       <circle
         cx="58"
@@ -822,7 +822,7 @@
         y="608"
         class="muted"
       >
-        58d
+        59d
       </text>
 
 <!-- HEATMAP -->
@@ -860,7 +860,7 @@
         width="15"
         height="15"
         rx="3"
-        fill="#006d32"
+        fill="#0e4429"
       />
       <rect
         x="762"
@@ -993,14 +993,6 @@
       <rect
         x="816"
         y="546"
-        width="15"
-        height="15"
-        rx="3"
-        fill="#0e4429"
-      />
-      <rect
-        x="816"
-        y="565"
         width="15"
         height="15"
         rx="3"
@@ -1008,6 +1000,14 @@
       />
       <rect
         x="816"
+        y="565"
+        width="15"
+        height="15"
+        rx="3"
+        fill="#0e4429"
+      />
+      <rect
+        x="816"
         y="584"
         width="15"
         height="15"
@@ -1020,7 +1020,7 @@
         width="15"
         height="15"
         rx="3"
-        fill="#0e4429"
+        fill="#161b22"
       />
       <rect
         x="843"
@@ -1028,7 +1028,7 @@
         width="15"
         height="15"
         rx="3"
-        fill="#161b22"
+        fill="#0e4429"
       />
       <rect
         x="843"
@@ -1044,7 +1044,7 @@
         width="15"
         height="15"
         rx="3"
-        fill="#0e4429"
+        fill="#161b22"
       />
       <rect
         x="843"
@@ -1084,7 +1084,7 @@
         width="15"
         height="15"
         rx="3"
-        fill="#161b22"
+        fill="#0e4429"
       />
       <rect
         x="870"
@@ -1100,7 +1100,7 @@
         width="15"
         height="15"
         rx="3"
-        fill="#0e4429"
+        fill="#161b22"
       />
       <rect
         x="870"
@@ -1180,7 +1180,7 @@
         width="15"
         height="15"
         rx="3"
-        fill="#161b22"
+        fill="#0e4429"
       />
       <rect
         x="924"
@@ -1188,7 +1188,7 @@
         width="15"
         height="15"
         rx="3"
-        fill="#0e4429"
+        fill="#161b22"
       />
       <rect
         x="924"
@@ -1228,7 +1228,7 @@
         width="15"
         height="15"
         rx="3"
-        fill="#161b22"
+        fill="#0e4429"
       />
       <rect
         x="924"
@@ -1236,7 +1236,7 @@
         width="15"
         height="15"
         rx="3"
-        fill="#0e4429"
+        fill="#161b22"
       />
       <rect
         x="951"
@@ -1525,7 +1525,7 @@
   class="muted"
 >
   Daily Challenge:
-  Longest Valid Parentheses
+  Valid Parenthesis String
 </text>
 
 </svg>
