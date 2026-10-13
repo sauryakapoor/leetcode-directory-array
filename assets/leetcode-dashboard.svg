@@ -528,7 +528,7 @@
     text-anchor="end"
     class="muted"
   >
-    3 / 982
+    3 / 983
   </text>
 
   <rect
@@ -543,7 +543,7 @@
   <rect
     x="330"
     y="376"
-    width="1.0997963340122199"
+    width="1.0986775178026449"
     height="9"
     rx="5"
     fill="#ff375f"
@@ -702,7 +702,7 @@
         y="468"
         class="muted"
       >
-        43d
+        44d
       </text>
       <circle
         cx="58"
@@ -732,7 +732,7 @@
         y="503"
         class="muted"
       >
-        50d
+        51d
       </text>
       <circle
         cx="58"
@@ -762,7 +762,7 @@
         y="538"
         class="muted"
       >
-        60d
+        61d
       </text>
       <circle
         cx="58"
@@ -792,7 +792,7 @@
         y="573"
         class="muted"
       >
-        61d
+        62d
       </text>
       <circle
         cx="58"
@@ -822,7 +822,7 @@
         y="608"
         class="muted"
       >
-        67d
+        68d
       </text>
 
 <!-- HEATMAP -->
@@ -924,18 +924,18 @@
         width="15"
         height="15"
         rx="3"
-        fill="#0e4429"
-      />
-      <rect
-        x="789"
-        y="527"
-        width="15"
-        height="15"
-        rx="3"
         fill="#006d32"
       />
       <rect
         x="789"
+        y="527"
+        width="15"
+        height="15"
+        rx="3"
+        fill="#0e4429"
+      />
+      <rect
+        x="789"
         y="546"
         width="15"
         height="15"
@@ -948,7 +948,7 @@
         width="15"
         height="15"
         rx="3"
-        fill="#0e4429"
+        fill="#161b22"
       />
       <rect
         x="789"
@@ -956,7 +956,7 @@
         width="15"
         height="15"
         rx="3"
-        fill="#161b22"
+        fill="#0e4429"
       />
       <rect
         x="816"
@@ -972,7 +972,7 @@
         width="15"
         height="15"
         rx="3"
-        fill="#0e4429"
+        fill="#161b22"
       />
       <rect
         x="816"
@@ -1012,7 +1012,7 @@
         width="15"
         height="15"
         rx="3"
-        fill="#161b22"
+        fill="#0e4429"
       />
       <rect
         x="843"
@@ -1028,7 +1028,7 @@
         width="15"
         height="15"
         rx="3"
-        fill="#0e4429"
+        fill="#161b22"
       />
       <rect
         x="843"
@@ -1108,7 +1108,7 @@
         width="15"
         height="15"
         rx="3"
-        fill="#161b22"
+        fill="#0e4429"
       />
       <rect
         x="870"
@@ -1116,7 +1116,7 @@
         width="15"
         height="15"
         rx="3"
-        fill="#0e4429"
+        fill="#161b22"
       />
       <rect
         x="870"
@@ -1156,7 +1156,7 @@
         width="15"
         height="15"
         rx="3"
-        fill="#161b22"
+        fill="#0e4429"
       />
       <rect
         x="897"
@@ -1164,7 +1164,7 @@
         width="15"
         height="15"
         rx="3"
-        fill="#0e4429"
+        fill="#161b22"
       />
       <rect
         x="897"
@@ -1525,7 +1525,7 @@
   class="muted"
 >
   Daily Challenge:
-  Apply Operations on Array to Ma…
+  Maximum Alternating Sum of Squa…
 </text>
 
 </svg>
