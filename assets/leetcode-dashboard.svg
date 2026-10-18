@@ -223,7 +223,7 @@
   text-anchor="end"
   class="normal"
 >
-  #2,331,719
+  #2,332,778
 </text>
 
 <text
@@ -456,7 +456,7 @@
     text-anchor="end"
     class="muted"
   >
-    46 / 971
+    46 / 972
   </text>
 
   <rect
@@ -471,7 +471,7 @@
   <rect
     x="330"
     y="288"
-    width="17.054582904222453"
+    width="17.037037037037038"
     height="9"
     rx="5"
     fill="#00b8a3"
@@ -492,7 +492,7 @@
     text-anchor="end"
     class="muted"
   >
-    16 / 2128
+    16 / 2130
   </text>
 
   <rect
@@ -507,7 +507,7 @@
   <rect
     x="330"
     y="332"
-    width="2.706766917293233"
+    width="2.704225352112676"
     height="9"
     rx="5"
     fill="#ffc01e"
@@ -528,7 +528,7 @@
     text-anchor="end"
     class="muted"
   >
-    3 / 983
+    3 / 984
   </text>
 
   <rect
@@ -543,7 +543,7 @@
   <rect
     x="330"
     y="376"
-    width="1.0986775178026449"
+    width="1.097560975609756"
     height="9"
     rx="5"
     fill="#ff375f"
@@ -702,7 +702,7 @@
         y="468"
         class="muted"
       >
-        48d
+        49d
       </text>
       <circle
         cx="58"
@@ -732,7 +732,7 @@
         y="503"
         class="muted"
       >
-        55d
+        56d
       </text>
       <circle
         cx="58"
@@ -762,7 +762,7 @@
         y="538"
         class="muted"
       >
-        65d
+        66d
       </text>
       <circle
         cx="58"
@@ -792,7 +792,7 @@
         y="573"
         class="muted"
       >
-        66d
+        67d
       </text>
       <circle
         cx="58"
@@ -822,7 +822,7 @@
         y="608"
         class="muted"
       >
-        72d
+        73d
       </text>
 
 <!-- HEATMAP -->
@@ -884,18 +884,18 @@
         width="15"
         height="15"
         rx="3"
-        fill="#0e4429"
-      />
-      <rect
-        x="762"
-        y="565"
-        width="15"
-        height="15"
-        rx="3"
         fill="#006d32"
       />
       <rect
         x="762"
+        y="565"
+        width="15"
+        height="15"
+        rx="3"
+        fill="#0e4429"
+      />
+      <rect
+        x="762"
         y="584"
         width="15"
         height="15"
@@ -908,7 +908,7 @@
         width="15"
         height="15"
         rx="3"
-        fill="#0e4429"
+        fill="#161b22"
       />
       <rect
         x="789"
@@ -916,7 +916,7 @@
         width="15"
         height="15"
         rx="3"
-        fill="#161b22"
+        fill="#0e4429"
       />
       <rect
         x="789"
@@ -932,7 +932,7 @@
         width="15"
         height="15"
         rx="3"
-        fill="#0e4429"
+        fill="#161b22"
       />
       <rect
         x="789"
@@ -972,7 +972,7 @@
         width="15"
         height="15"
         rx="3"
-        fill="#161b22"
+        fill="#0e4429"
       />
       <rect
         x="816"
@@ -988,7 +988,7 @@
         width="15"
         height="15"
         rx="3"
-        fill="#0e4429"
+        fill="#161b22"
       />
       <rect
         x="816"
@@ -1068,7 +1068,7 @@
         width="15"
         height="15"
         rx="3"
-        fill="#161b22"
+        fill="#0e4429"
       />
       <rect
         x="870"
@@ -1076,7 +1076,7 @@
         width="15"
         height="15"
         rx="3"
-        fill="#0e4429"
+        fill="#161b22"
       />
       <rect
         x="870"
@@ -1116,7 +1116,7 @@
         width="15"
         height="15"
         rx="3"
-        fill="#161b22"
+        fill="#0e4429"
       />
       <rect
         x="870"
@@ -1124,7 +1124,7 @@
         width="15"
         height="15"
         rx="3"
-        fill="#0e4429"
+        fill="#161b22"
       />
       <rect
         x="897"
@@ -1525,7 +1525,7 @@
   class="muted"
 >
   Daily Challenge:
-  Minimum Swaps to Sort by Digit …
+  Number of Ways to Reorder Array…
 </text>
 
 </svg>
