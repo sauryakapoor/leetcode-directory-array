@@ -223,7 +223,7 @@
   text-anchor="end"
   class="normal"
 >
-  #2,338,716
+  #2,339,906
 </text>
 
 <text
@@ -702,7 +702,7 @@
         y="468"
         class="muted"
       >
-        54d
+        55d
       </text>
       <circle
         cx="58"
@@ -732,7 +732,7 @@
         y="503"
         class="muted"
       >
-        61d
+        62d
       </text>
       <circle
         cx="58"
@@ -762,7 +762,7 @@
         y="538"
         class="muted"
       >
-        71d
+        72d
       </text>
       <circle
         cx="58"
@@ -792,7 +792,7 @@
         y="573"
         class="muted"
       >
-        72d
+        73d
       </text>
       <circle
         cx="58"
@@ -822,7 +822,7 @@
         y="608"
         class="muted"
       >
-        78d
+        79d
       </text>
 
 <!-- HEATMAP -->
@@ -860,7 +860,7 @@
         width="15"
         height="15"
         rx="3"
-        fill="#0e4429"
+        fill="#161b22"
       />
       <rect
         x="762"
@@ -868,7 +868,7 @@
         width="15"
         height="15"
         rx="3"
-        fill="#161b22"
+        fill="#0e4429"
       />
       <rect
         x="762"
@@ -884,7 +884,7 @@
         width="15"
         height="15"
         rx="3"
-        fill="#0e4429"
+        fill="#161b22"
       />
       <rect
         x="762"
@@ -924,7 +924,7 @@
         width="15"
         height="15"
         rx="3"
-        fill="#161b22"
+        fill="#0e4429"
       />
       <rect
         x="789"
@@ -940,7 +940,7 @@
         width="15"
         height="15"
         rx="3"
-        fill="#0e4429"
+        fill="#161b22"
       />
       <rect
         x="789"
@@ -1020,7 +1020,7 @@
         width="15"
         height="15"
         rx="3"
-        fill="#161b22"
+        fill="#0e4429"
       />
       <rect
         x="843"
@@ -1028,7 +1028,7 @@
         width="15"
         height="15"
         rx="3"
-        fill="#0e4429"
+        fill="#161b22"
       />
       <rect
         x="843"
@@ -1068,7 +1068,7 @@
         width="15"
         height="15"
         rx="3"
-        fill="#161b22"
+        fill="#0e4429"
       />
       <rect
         x="870"
@@ -1076,7 +1076,7 @@
         width="15"
         height="15"
         rx="3"
-        fill="#0e4429"
+        fill="#161b22"
       />
       <rect
         x="870"
@@ -1525,7 +1525,7 @@
   class="muted"
 >
   Daily Challenge:
-  Maximum K to Sort a Permutation
+  Count Days Spent Together
 </text>
 
 </svg>
