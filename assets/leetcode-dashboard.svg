@@ -223,7 +223,7 @@
   text-anchor="end"
   class="normal"
 >
-  #2,339,906
+  #2,340,930
 </text>
 
 <text
@@ -456,7 +456,7 @@
     text-anchor="end"
     class="muted"
   >
-    46 / 972
+    46 / 974
   </text>
 
   <rect
@@ -471,7 +471,7 @@
   <rect
     x="330"
     y="288"
-    width="17.037037037037038"
+    width="17.00205338809035"
     height="9"
     rx="5"
     fill="#00b8a3"
@@ -492,7 +492,7 @@
     text-anchor="end"
     class="muted"
   >
-    16 / 2131
+    16 / 2135
   </text>
 
   <rect
@@ -507,7 +507,7 @@
   <rect
     x="330"
     y="332"
-    width="2.702956358517128"
+    width="2.697892271662763"
     height="9"
     rx="5"
     fill="#ffc01e"
@@ -528,7 +528,7 @@
     text-anchor="end"
     class="muted"
   >
-    3 / 984
+    3 / 986
   </text>
 
   <rect
@@ -543,7 +543,7 @@
   <rect
     x="330"
     y="376"
-    width="1.097560975609756"
+    width="1.0953346855983772"
     height="9"
     rx="5"
     fill="#ff375f"
@@ -702,7 +702,7 @@
         y="468"
         class="muted"
       >
-        55d
+        56d
       </text>
       <circle
         cx="58"
@@ -732,7 +732,7 @@
         y="503"
         class="muted"
       >
-        62d
+        63d
       </text>
       <circle
         cx="58"
@@ -762,7 +762,7 @@
         y="538"
         class="muted"
       >
-        72d
+        73d
       </text>
       <circle
         cx="58"
@@ -792,7 +792,7 @@
         y="573"
         class="muted"
       >
-        73d
+        74d
       </text>
       <circle
         cx="58"
@@ -822,7 +822,7 @@
         y="608"
         class="muted"
       >
-        79d
+        80d
       </text>
 
 <!-- HEATMAP -->
@@ -852,7 +852,7 @@
         width="15"
         height="15"
         rx="3"
-        fill="#0e4429"
+        fill="#161b22"
       />
       <rect
         x="762"
@@ -860,7 +860,7 @@
         width="15"
         height="15"
         rx="3"
-        fill="#161b22"
+        fill="#0e4429"
       />
       <rect
         x="762"
@@ -876,7 +876,7 @@
         width="15"
         height="15"
         rx="3"
-        fill="#0e4429"
+        fill="#161b22"
       />
       <rect
         x="762"
@@ -916,7 +916,7 @@
         width="15"
         height="15"
         rx="3"
-        fill="#161b22"
+        fill="#0e4429"
       />
       <rect
         x="789"
@@ -932,7 +932,7 @@
         width="15"
         height="15"
         rx="3"
-        fill="#0e4429"
+        fill="#161b22"
       />
       <rect
         x="789"
@@ -1012,7 +1012,7 @@
         width="15"
         height="15"
         rx="3"
-        fill="#161b22"
+        fill="#0e4429"
       />
       <rect
         x="843"
@@ -1020,7 +1020,7 @@
         width="15"
         height="15"
         rx="3"
-        fill="#0e4429"
+        fill="#161b22"
       />
       <rect
         x="843"
@@ -1060,7 +1060,7 @@
         width="15"
         height="15"
         rx="3"
-        fill="#161b22"
+        fill="#0e4429"
       />
       <rect
         x="843"
@@ -1068,7 +1068,7 @@
         width="15"
         height="15"
         rx="3"
-        fill="#0e4429"
+        fill="#161b22"
       />
       <rect
         x="870"
@@ -1525,7 +1525,7 @@
   class="muted"
 >
   Daily Challenge:
-  Count Days Spent Together
+  Number of Closed Islands
 </text>
 
 </svg>
