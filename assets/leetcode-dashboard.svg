@@ -223,7 +223,7 @@
   text-anchor="end"
   class="normal"
 >
-  #2,343,312
+  #2,344,512
 </text>
 
 <text
@@ -492,7 +492,7 @@
     text-anchor="end"
     class="muted"
   >
-    16 / 2135
+    16 / 2136
   </text>
 
   <rect
@@ -507,7 +507,7 @@
   <rect
     x="330"
     y="332"
-    width="2.697892271662763"
+    width="2.6966292134831464"
     height="9"
     rx="5"
     fill="#ffc01e"
@@ -702,7 +702,7 @@
         y="468"
         class="muted"
       >
-        58d
+        59d
       </text>
       <circle
         cx="58"
@@ -732,7 +732,7 @@
         y="503"
         class="muted"
       >
-        65d
+        66d
       </text>
       <circle
         cx="58"
@@ -762,7 +762,7 @@
         y="538"
         class="muted"
       >
-        75d
+        76d
       </text>
       <circle
         cx="58"
@@ -792,7 +792,7 @@
         y="573"
         class="muted"
       >
-        76d
+        77d
       </text>
       <circle
         cx="58"
@@ -822,7 +822,7 @@
         y="608"
         class="muted"
       >
-        82d
+        83d
       </text>
 
 <!-- HEATMAP -->
@@ -852,7 +852,7 @@
         width="15"
         height="15"
         rx="3"
-        fill="#0e4429"
+        fill="#161b22"
       />
       <rect
         x="762"
@@ -892,7 +892,7 @@
         width="15"
         height="15"
         rx="3"
-        fill="#161b22"
+        fill="#0e4429"
       />
       <rect
         x="762"
@@ -908,7 +908,7 @@
         width="15"
         height="15"
         rx="3"
-        fill="#0e4429"
+        fill="#161b22"
       />
       <rect
         x="789"
@@ -988,7 +988,7 @@
         width="15"
         height="15"
         rx="3"
-        fill="#161b22"
+        fill="#0e4429"
       />
       <rect
         x="816"
@@ -996,7 +996,7 @@
         width="15"
         height="15"
         rx="3"
-        fill="#0e4429"
+        fill="#161b22"
       />
       <rect
         x="816"
@@ -1036,7 +1036,7 @@
         width="15"
         height="15"
         rx="3"
-        fill="#161b22"
+        fill="#0e4429"
       />
       <rect
         x="843"
@@ -1044,7 +1044,7 @@
         width="15"
         height="15"
         rx="3"
-        fill="#0e4429"
+        fill="#161b22"
       />
       <rect
         x="843"
@@ -1525,7 +1525,7 @@
   class="muted"
 >
   Daily Challenge:
-  Create Grid With Exactly One Pa…
+  Minimum XOR Path in a Grid
 </text>
 
 </svg>
