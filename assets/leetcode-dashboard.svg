@@ -223,7 +223,7 @@
   text-anchor="end"
   class="normal"
 >
-  #2,354,600
+  #2,355,546
 </text>
 
 <text
@@ -702,7 +702,7 @@
         y="468"
         class="muted"
       >
-        67d
+        68d
       </text>
       <circle
         cx="58"
@@ -732,7 +732,7 @@
         y="503"
         class="muted"
       >
-        74d
+        75d
       </text>
       <circle
         cx="58"
@@ -762,7 +762,7 @@
         y="538"
         class="muted"
       >
-        84d
+        85d
       </text>
       <circle
         cx="58"
@@ -792,7 +792,7 @@
         y="573"
         class="muted"
       >
-        85d
+        86d
       </text>
       <circle
         cx="58"
@@ -822,7 +822,7 @@
         y="608"
         class="muted"
       >
-        91d
+        92d
       </text>
 
 <!-- HEATMAP -->
@@ -916,7 +916,7 @@
         width="15"
         height="15"
         rx="3"
-        fill="#161b22"
+        fill="#0e4429"
       />
       <rect
         x="789"
@@ -924,7 +924,7 @@
         width="15"
         height="15"
         rx="3"
-        fill="#0e4429"
+        fill="#161b22"
       />
       <rect
         x="789"
@@ -964,7 +964,7 @@
         width="15"
         height="15"
         rx="3"
-        fill="#161b22"
+        fill="#0e4429"
       />
       <rect
         x="816"
@@ -972,7 +972,7 @@
         width="15"
         height="15"
         rx="3"
-        fill="#0e4429"
+        fill="#161b22"
       />
       <rect
         x="816"
@@ -1525,7 +1525,7 @@
   class="muted"
 >
   Daily Challenge:
-  Find the Distance Value Between…
+  Count Zero Request Servers
 </text>
 
 </svg>
