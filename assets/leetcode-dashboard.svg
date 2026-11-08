@@ -223,7 +223,7 @@
   text-anchor="end"
   class="normal"
 >
-  #2,355,546
+  #2,356,286
 </text>
 
 <text
@@ -492,7 +492,7 @@
     text-anchor="end"
     class="muted"
   >
-    16 / 2139
+    16 / 2145
   </text>
 
   <rect
@@ -507,7 +507,7 @@
   <rect
     x="330"
     y="332"
-    width="2.6928471248246844"
+    width="2.6853146853146854"
     height="9"
     rx="5"
     fill="#ffc01e"
@@ -528,7 +528,7 @@
     text-anchor="end"
     class="muted"
   >
-    3 / 987
+    3 / 989
   </text>
 
   <rect
@@ -543,7 +543,7 @@
   <rect
     x="330"
     y="376"
-    width="1.094224924012158"
+    width="1.0920121334681496"
     height="9"
     rx="5"
     fill="#ff375f"
@@ -702,7 +702,7 @@
         y="468"
         class="muted"
       >
-        69d
+        70d
       </text>
       <circle
         cx="58"
@@ -732,7 +732,7 @@
         y="503"
         class="muted"
       >
-        76d
+        77d
       </text>
       <circle
         cx="58"
@@ -762,7 +762,7 @@
         y="538"
         class="muted"
       >
-        86d
+        87d
       </text>
       <circle
         cx="58"
@@ -792,7 +792,7 @@
         y="573"
         class="muted"
       >
-        87d
+        88d
       </text>
       <circle
         cx="58"
@@ -822,7 +822,7 @@
         y="608"
         class="muted"
       >
-        93d
+        94d
       </text>
 
 <!-- HEATMAP -->
@@ -900,7 +900,7 @@
         width="15"
         height="15"
         rx="3"
-        fill="#161b22"
+        fill="#0e4429"
       />
       <rect
         x="789"
@@ -908,7 +908,7 @@
         width="15"
         height="15"
         rx="3"
-        fill="#0e4429"
+        fill="#161b22"
       />
       <rect
         x="789"
@@ -948,7 +948,7 @@
         width="15"
         height="15"
         rx="3"
-        fill="#161b22"
+        fill="#0e4429"
       />
       <rect
         x="789"
@@ -956,7 +956,7 @@
         width="15"
         height="15"
         rx="3"
-        fill="#0e4429"
+        fill="#161b22"
       />
       <rect
         x="816"
@@ -1525,7 +1525,7 @@
   class="muted"
 >
   Daily Challenge:
-  Process Tasks Using Servers
+  Count Servers that Communicate
 </text>
 
 </svg>
