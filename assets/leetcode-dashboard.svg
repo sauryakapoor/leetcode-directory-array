@@ -223,7 +223,7 @@
   text-anchor="end"
   class="normal"
 >
-  #2,357,724
+  #2,358,569
 </text>
 
 <text
@@ -492,7 +492,7 @@
     text-anchor="end"
     class="muted"
   >
-    16 / 2145
+    16 / 2146
   </text>
 
   <rect
@@ -507,7 +507,7 @@
   <rect
     x="330"
     y="332"
-    width="2.6853146853146854"
+    width="2.684063373718546"
     height="9"
     rx="5"
     fill="#ffc01e"
@@ -702,7 +702,7 @@
         y="468"
         class="muted"
       >
-        71d
+        72d
       </text>
       <circle
         cx="58"
@@ -732,7 +732,7 @@
         y="503"
         class="muted"
       >
-        78d
+        79d
       </text>
       <circle
         cx="58"
@@ -762,7 +762,7 @@
         y="538"
         class="muted"
       >
-        88d
+        89d
       </text>
       <circle
         cx="58"
@@ -792,7 +792,7 @@
         y="573"
         class="muted"
       >
-        89d
+        90d
       </text>
       <circle
         cx="58"
@@ -822,7 +822,7 @@
         y="608"
         class="muted"
       >
-        95d
+        96d
       </text>
 
 <!-- HEATMAP -->
@@ -884,7 +884,7 @@
         width="15"
         height="15"
         rx="3"
-        fill="#161b22"
+        fill="#0e4429"
       />
       <rect
         x="762"
@@ -892,7 +892,7 @@
         width="15"
         height="15"
         rx="3"
-        fill="#0e4429"
+        fill="#161b22"
       />
       <rect
         x="762"
@@ -932,7 +932,7 @@
         width="15"
         height="15"
         rx="3"
-        fill="#161b22"
+        fill="#0e4429"
       />
       <rect
         x="789"
@@ -940,7 +940,7 @@
         width="15"
         height="15"
         rx="3"
-        fill="#0e4429"
+        fill="#161b22"
       />
       <rect
         x="789"
@@ -1525,7 +1525,7 @@
   class="muted"
 >
   Daily Challenge:
-  Find Servers That Handled Most …
+  Climbing Stairs II
 </text>
 
 </svg>
