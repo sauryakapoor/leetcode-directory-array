@@ -223,7 +223,7 @@
   text-anchor="end"
   class="normal"
 >
-  #2,358,569
+  #2,359,472
 </text>
 
 <text
@@ -702,7 +702,7 @@
         y="468"
         class="muted"
       >
-        72d
+        73d
       </text>
       <circle
         cx="58"
@@ -732,7 +732,7 @@
         y="503"
         class="muted"
       >
-        79d
+        80d
       </text>
       <circle
         cx="58"
@@ -762,7 +762,7 @@
         y="538"
         class="muted"
       >
-        89d
+        90d
       </text>
       <circle
         cx="58"
@@ -792,7 +792,7 @@
         y="573"
         class="muted"
       >
-        90d
+        91d
       </text>
       <circle
         cx="58"
@@ -822,7 +822,7 @@
         y="608"
         class="muted"
       >
-        96d
+        97d
       </text>
 
 <!-- HEATMAP -->
@@ -876,7 +876,7 @@
         width="15"
         height="15"
         rx="3"
-        fill="#161b22"
+        fill="#0e4429"
       />
       <rect
         x="762"
@@ -884,7 +884,7 @@
         width="15"
         height="15"
         rx="3"
-        fill="#0e4429"
+        fill="#161b22"
       />
       <rect
         x="762"
@@ -924,7 +924,7 @@
         width="15"
         height="15"
         rx="3"
-        fill="#161b22"
+        fill="#0e4429"
       />
       <rect
         x="789"
@@ -932,7 +932,7 @@
         width="15"
         height="15"
         rx="3"
-        fill="#0e4429"
+        fill="#161b22"
       />
       <rect
         x="789"
@@ -1525,7 +1525,7 @@
   class="muted"
 >
   Daily Challenge:
-  Climbing Stairs II
+  Minimum Cost to Acquire Require…
 </text>
 
 </svg>
