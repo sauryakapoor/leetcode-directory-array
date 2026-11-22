@@ -223,7 +223,7 @@
   text-anchor="end"
   class="normal"
 >
-  #2,368,412
+  #2,369,248
 </text>
 
 <text
@@ -456,7 +456,7 @@
     text-anchor="end"
     class="muted"
   >
-    46 / 976
+    46 / 978
   </text>
 
   <rect
@@ -471,7 +471,7 @@
   <rect
     x="330"
     y="288"
-    width="16.9672131147541"
+    width="16.93251533742331"
     height="9"
     rx="5"
     fill="#00b8a3"
@@ -492,7 +492,7 @@
     text-anchor="end"
     class="muted"
   >
-    16 / 2148
+    16 / 2152
   </text>
 
   <rect
@@ -507,7 +507,7 @@
   <rect
     x="330"
     y="332"
-    width="2.6815642458100557"
+    width="2.6765799256505574"
     height="9"
     rx="5"
     fill="#ffc01e"
@@ -528,7 +528,7 @@
     text-anchor="end"
     class="muted"
   >
-    3 / 991
+    3 / 993
   </text>
 
   <rect
@@ -543,7 +543,7 @@
   <rect
     x="330"
     y="376"
-    width="1.089808274470232"
+    width="1.0876132930513593"
     height="9"
     rx="5"
     fill="#ff375f"
@@ -702,7 +702,7 @@
         y="468"
         class="muted"
       >
-        83d
+        84d
       </text>
       <circle
         cx="58"
@@ -732,7 +732,7 @@
         y="503"
         class="muted"
       >
-        90d
+        91d
       </text>
       <circle
         cx="58"
@@ -762,7 +762,7 @@
         y="538"
         class="muted"
       >
-        100d
+        101d
       </text>
       <circle
         cx="58"
@@ -792,7 +792,7 @@
         y="573"
         class="muted"
       >
-        101d
+        102d
       </text>
       <circle
         cx="58"
@@ -822,7 +822,7 @@
         y="608"
         class="muted"
       >
-        107d
+        108d
       </text>
 
 <!-- HEATMAP -->
@@ -1525,7 +1525,7 @@
   class="muted"
 >
   Daily Challenge:
-  Find Subtree Sizes After Changes
+  Check if All A's Appears Before…
 </text>
 
 </svg>
