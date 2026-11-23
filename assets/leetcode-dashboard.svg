@@ -223,7 +223,7 @@
   text-anchor="end"
   class="normal"
 >
-  #2,369,248
+  #2,370,079
 </text>
 
 <text
@@ -702,7 +702,7 @@
         y="468"
         class="muted"
       >
-        84d
+        85d
       </text>
       <circle
         cx="58"
@@ -732,7 +732,7 @@
         y="503"
         class="muted"
       >
-        91d
+        92d
       </text>
       <circle
         cx="58"
@@ -762,7 +762,7 @@
         y="538"
         class="muted"
       >
-        101d
+        102d
       </text>
       <circle
         cx="58"
@@ -792,7 +792,7 @@
         y="573"
         class="muted"
       >
-        102d
+        103d
       </text>
       <circle
         cx="58"
@@ -822,7 +822,7 @@
         y="608"
         class="muted"
       >
-        108d
+        109d
       </text>
 
 <!-- HEATMAP -->
@@ -1525,7 +1525,7 @@
   class="muted"
 >
   Daily Challenge:
-  Check if All A's Appears Before…
+  Product of the Last K Numbers
 </text>
 
 </svg>
