@@ -223,7 +223,7 @@
   text-anchor="end"
   class="normal"
 >
-  #2,370,079
+  #2,370,883
 </text>
 
 <text
@@ -702,7 +702,7 @@
         y="468"
         class="muted"
       >
-        85d
+        86d
       </text>
       <circle
         cx="58"
@@ -732,7 +732,7 @@
         y="503"
         class="muted"
       >
-        92d
+        93d
       </text>
       <circle
         cx="58"
@@ -762,7 +762,7 @@
         y="538"
         class="muted"
       >
-        102d
+        103d
       </text>
       <circle
         cx="58"
@@ -792,7 +792,7 @@
         y="573"
         class="muted"
       >
-        103d
+        104d
       </text>
       <circle
         cx="58"
@@ -822,7 +822,7 @@
         y="608"
         class="muted"
       >
-        109d
+        110d
       </text>
 
 <!-- HEATMAP -->
@@ -1525,7 +1525,7 @@
   class="muted"
 >
   Daily Challenge:
-  Product of the Last K Numbers
+  Maximum Subarray With Equal Pro…
 </text>
 
 </svg>
