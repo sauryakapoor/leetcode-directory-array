@@ -223,7 +223,7 @@
   text-anchor="end"
   class="normal"
 >
-  #2,370,883
+  #2,371,647
 </text>
 
 <text
@@ -528,7 +528,7 @@
     text-anchor="end"
     class="muted"
   >
-    3 / 993
+    3 / 994
   </text>
 
   <rect
@@ -543,7 +543,7 @@
   <rect
     x="330"
     y="376"
-    width="1.0876132930513593"
+    width="1.0865191146881288"
     height="9"
     rx="5"
     fill="#ff375f"
@@ -702,7 +702,7 @@
         y="468"
         class="muted"
       >
-        86d
+        87d
       </text>
       <circle
         cx="58"
@@ -732,7 +732,7 @@
         y="503"
         class="muted"
       >
-        93d
+        94d
       </text>
       <circle
         cx="58"
@@ -762,7 +762,7 @@
         y="538"
         class="muted"
       >
-        103d
+        104d
       </text>
       <circle
         cx="58"
@@ -792,7 +792,7 @@
         y="573"
         class="muted"
       >
-        104d
+        105d
       </text>
       <circle
         cx="58"
@@ -822,7 +822,7 @@
         y="608"
         class="muted"
       >
-        110d
+        111d
       </text>
 
 <!-- HEATMAP -->
@@ -1525,7 +1525,7 @@
   class="muted"
 >
   Daily Challenge:
-  Maximum Subarray With Equal Pro…
+  Smallest Unique Subarray
 </text>
 
 </svg>
