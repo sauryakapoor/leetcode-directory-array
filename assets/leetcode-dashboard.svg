@@ -223,7 +223,7 @@
   text-anchor="end"
   class="normal"
 >
-  #2,372,544
+  #2,373,358
 </text>
 
 <text
@@ -702,7 +702,7 @@
         y="468"
         class="muted"
       >
-        88d
+        89d
       </text>
       <circle
         cx="58"
@@ -732,7 +732,7 @@
         y="503"
         class="muted"
       >
-        95d
+        96d
       </text>
       <circle
         cx="58"
@@ -762,7 +762,7 @@
         y="538"
         class="muted"
       >
-        105d
+        106d
       </text>
       <circle
         cx="58"
@@ -792,7 +792,7 @@
         y="573"
         class="muted"
       >
-        106d
+        107d
       </text>
       <circle
         cx="58"
@@ -822,7 +822,7 @@
         y="608"
         class="muted"
       >
-        112d
+        113d
       </text>
 
 <!-- HEATMAP -->
@@ -1525,7 +1525,7 @@
   class="muted"
 >
   Daily Challenge:
-  Stone Removal Game
+  Maximum Number of Items From Sa…
 </text>
 
 </svg>
